@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programación</title>
+</head>
+
+<body>
+    <header>
+        <h1> Programación </h1>
+    </header>
+
+    <section>
+        <h1> Algoritmos </h1>
+
+        <p>
+            Un algoritmo es un conjunto de instrucciones bien definidas y ordenadas que se utilizan para resolver un problema o realizar una tarea específica. En programación, los algoritmos son fundamentales, ya que son la base para diseñar y desarrollar software. La importancia de los algoritmos en la programación radica en que permiten a los programadores resolver problemas de manera efectiva y eficiente, utilizando un conjunto de pasos bien definidos y estructurados. Los algoritmos también son la base para el diseño de métodos y funciones, que son herramientas clave para crear programas modulares y reutilizables. En resumen, comprender y diseñar algoritmos es esencial para cualquier persona que quiera desarrollar software y resolver problemas de manera eficiente en el campo de la programación.
+        </p>
+
+        <h2>Elementos básicos de un algoritmo </h2>
+
+        <p>
+            Los algoritmos tienen varios elementos básicos que los componen y que son esenciales para su correcto funcionamiento. Entre los elementos más importantes se encuentran:
+        </p>
+
+        <ul>
+            <li>
+                <b> 
+                    Entrada: 
+                </b>
+                <p>
+                    Representa la información que se ingresa en el algoritmo para ser procesada. La entrada puede ser de diferentes tipos, como texto, números, imágenes, etc.
+                </p>
+            </li>
+            <li>
+                <b> 
+                    Salida: 
+                </b>
+                <p>
+                    Es el resultado que se obtiene del proceso realizado por el algoritmo. La salida puede ser de diferentes tipos, como texto, números, imágenes, sonidos, etc.
+                </p>
+            </li>
+            <li>
+               <b>  
+                    Proceso: 
+                </b>
+                <p>
+                    Es la secuencia de pasos o instrucciones que se realizan para procesar la información de entrada y obtener la salida deseada. Los procesos pueden ser tan simples o complejos como sea necesario.
+                </p>
+            </li>
+            <li>
+                <b> 
+                    Variables: 
+                </b>
+                <p>
+                    Son elementos que se utilizan para almacenar valores o información durante el proceso del algoritmo. Las variables pueden tener diferentes tipos de datos, como números, texto, booleanos, etc.
+                </p>
+            <li>
+                <b> 
+                    Operadores: 
+                </b>
+                <p>
+                    Son símbolos o palabras que se utilizan para realizar operaciones matemáticas o lógicas en el algoritmo. Los operadores pueden ser aritméticos (suma, resta, multiplicación, división), de comparación (igual, mayor que, menor que), lógicos (Y, O, NO), entre otros.
+                </p>
+            </li>
+            <li>
+                <b> 
+                    Estructuras de control: 
+                </b>
+                <p>
+                    Son herramientas que permiten controlar el flujo de un algoritmo, como las estructuras condicionales (si-si no) y los bucles (repetir, mientras, para, para cada).
+                </p>
+            </li>
+        </ul>
+        <p>
+            En resumen, los elementos básicos de un algoritmo son esenciales para su correcto funcionamiento, y comprenden la entrada, salida, proceso, variables, operadores y estructuras de control. Es fundamental entender cómo estos elementos interactúan entre sí para poder diseñar algoritmos efectivos y resolver problemas de manera eficiente.
+        </p>
+
+
+        <aside>
+            <h4> Nota </h4>
+            <p>
+                En el transcurso del texto nos vamos a encontrar con ciertos elementos específicos sobre los cuales no vamos a profundizar, pero es importante que sepan más o menos de qué tratan:
+            </p>
+            <h5> Comentarios </h5>
+            <p>
+                Cada lenguaje utiliza combinaciones diferentes, pero en este texto vamos a usar las dos barras “//”. Cuando aparece este signo al inicio de un renglón quiere decir que ese renglón no se va a ejecutar, que no cuenta como parte del programa, es solo para aclarar o dar contexto a lo que está escrito.
+            </p>
+            <h5> Imprimir </h5>
+            <p>
+                La función imprimir es una que recibe un texto y lo muestra en pantalla, todos los lenguajes de programación implementan una función imprimir de una forma u otra.
+            </p>
+            <p>
+                Su uso es el siguiente:
+            </p>
+            <pre><code>
+                imprimir (“Texto que queremos mostrar en pantalla encerrado entre comillas”) 
+            </code></pre>
+
+            <h5> Leer </h5>
+            <p>
+                En algunos ejercicios vamos a encontrarnos con que se pide que se “lea” un valor ingresado por el usuario. Para eso usamos la función leer, la cual se utiliza de la siguiente manera:
+            </p>
+            <pre><code>
+                variable &lt;tipo&gt; entradaDeUsuario = Leer() 
+            </code></pre>
+            <p>
+                Más adelante veremos las variables y el uso de esta función se hará más claro.
+            </p>
+        </aside>
+        <p>
+            Ejemplo de un algoritmo, escrito en lenguaje natural sobre como vestirse:
+        </p>
+        <pre><code>
+    algoritmo Vestirse
+    {
+        1. Buscar la ropa que deseas usar.
+        2. Sacar la ropa del armario o cajón.
+        3. Comprobar que la ropa está limpia y en buen estado.
+        4. Si no está en buen estado, volver al paso 1
+        5. Si está en buen estado, ponerte la ropa interior.
+        6. Ponerte la ropa exterior (pantalones, camisa, etc.).
+        7. Ponerse los calcetines y/o medias.
+        8. Ponerse los zapatos.
+        9. Revisar si estás contento con tu elección de ropa.
+        10. Si no estás satisfecho, volver al paso 1.
+    }
+        </pre> </code>
+        <h3> Ejercicios:</h3>
+        <ol>
+            <li>
+                <b>
+                Algoritmo para cepillarse los dientes: 
+                </b>
+                <p>
+                Escribe un algoritmo que describa los pasos necesarios para cepillarse los dientes de manera efectiva. El algoritmo debería incluir el uso de pasta dental, enjuague bucal y el tiempo recomendado para cepillar.
+                </p>
+            </li>
+            <li>
+                <b>
+                Algoritmo para preparar un sándwich: 
+                </b>
+                <p>
+                Escribe un algoritmo que describa los pasos necesarios para preparar un sándwich. El algoritmo debería incluir la selección de los ingredientes y la forma de armar el sándwich.
+                </p>
+            </li>
+            <li>
+                <b>
+                Algoritmo para hacer la cama: 
+                </b>
+                <p>
+                Escribe un algoritmo que describa los pasos necesarios para hacer la cama de manera efectiva. El algoritmo debería incluir el doblado de las sábanas, el acomodo de las almohadas y el cubrir la cama con la colcha.
+                </p>
+            </li>
+            <li>
+                <b>
+                Algoritmo para lavar platos: 
+                </b>
+                <p>
+                Escribe un algoritmo que describa los pasos necesarios para lavar platos de manera efectiva. El algoritmo debería incluir el uso del jabón y la esponja, el enjuague de los platos y el secado de los mismos.
+                </p>
+            </li>
+            <li>
+                <b>
+                Algoritmo para regar plantas: 
+                </b>
+                <p>
+                Escribe un algoritmo que describa los pasos necesarios para regar las plantas de manera efectiva. El algoritmo debería incluir la selección de las plantas que necesitan ser regadas, la cantidad de agua necesaria y la forma de distribuir el agua.
+                </p>
+            </li>
+        </ol>
+
+    </section>
+    <section>
+
+        <h1> Variables </h1>
+        <p>
+            En programación, una variable es un espacio de memoria asignado a un valor que puede ser modificado durante la ejecución de un programa. Las variables se utilizan para almacenar y manipular datos en un programa y se pueden asignar a diferentes tipos de datos.
+        </p>
+        <p>
+            Los tipos de datos son las distintas formas en que se pueden representar y manipular valores en un programa.
+        </p>
+        <p>
+            Algunos de los tipos de datos más comunes son:
+        </p>
+        <ul>
+            <li>
+                <b>
+                    Números: 
+                </b>
+                <p>
+                    Representan valores numéricos, ya sean enteros o decimales.
+                </p>
+            </li>
+            <li>
+                <b>
+                    Texto: 
+                </b>
+                <p>
+                    Representan cadenas de caracteres, como palabras o frases. En los lenguajes de programación, los valores que puede adoptar este tipo se encierran entre comillas dobles o simples.
+                </p>
+            </li>
+            <li>
+                <b>
+                    Booleanos: 
+                </b>
+                <p>
+                    Representan valores verdaderos o falsos.
+                </p>
+            </li>
+            <li>
+                <b>
+                    Listas o arreglos: 
+                </b>
+                <p>
+                    Representan conjuntos de valores de un mismo tipo, organizados en una estructura.
+                </p>
+            </li>
+            <li>
+                <b>
+                    Objetos: 
+                </b>
+                <p>
+                    Representan entidades complejas que pueden contener varias variables y funciones.
+                </p>
+            </li>
+        </ul>
+        <p>
+            Al definir variables en un programa, se debe especificar el tipo de dato que van a contener, para que el programa sepa cómo manipularlas adecuadamente. Los tipos de datos y variables son elementos fundamentales en la programación y permiten a los programadores trabajar con diferentes tipos de información y realizar cálculos y manipulaciones complejas en sus programas.
+        </p>
+
+        <h2> Declaración y asignación de variables.</h2>
+        <p>
+            La declaración de una variable en programación es una forma de reservar un espacio en la memoria del computador para almacenar un valor. Una variable se define por un nombre y un tipo de dato, que determina el tipo de valores que puede contener, como números enteros, números decimales, texto, booleanos, entre otros.
+        </p>
+        <p>
+            La asignación de una variable se realiza a través del operador "=". Este operador permite asignar un valor a una variable previamente declarada. Por ejemplo, si se ha declarado una variable llamada "edad" de tipo entero, se puede asignar un valor de la siguiente forma:
+        </p>
+        <pre><code>
+        variable entero edad = 25
+        </code></pre>
+
+        <p>
+        Se puede resumir escribiendo:
+        </p>
+
+        <pre><code>
+        entero edad = 25
+        </code></pre>
+        <p>
+        En ambos casos, se declara una variable llamada "edad" de tipo entero y le asigna el valor de 25.
+        </p>
+        <p>
+        La declaración de variables, entonces, adquiere la siguiente estructura:
+        </p>
+        
+        <pre><code>
+        variable* &lt;tipo&gt; &lt;nombre&gt; = &lt;valor&gt;
+        </code></pre>
+        <p>
+            *opcional
+        </p>
+        <p>
+            Es importante mencionar que, en algunos lenguajes de programación, las variables deben ser declaradas antes de ser asignadas, mientras que en otros lenguajes se pueden declarar y asignar en la misma línea. En esta misma línea podemos decir que no todos los lenguajes de programación aceptan los mismos tipos de variables, pero en general podemos encontrar los siguientes tipos:
+        </p>
+        <ul>
+        <li>
+            <b> entero </b>
+        </li>
+        <li>
+            <b> decimal </b>
+        </li>
+        <li>
+            <b> texto  </b> <p> (también conocidos como cadena) </p>
+        </li>
+        <li>
+            <b> booleano </b>
+        </li>
+        <li>
+            <b> lista </b>
+        </li>
+        <li>
+            <b> objeto </b>
+        </li>
+        </ul>
+
+        <h2> Operaciones sobre variables</h2>
+        <p>
+            Las operaciones sobre variables son acciones que se realizan para manipular los valores almacenados en ellas. Las variables pueden ser sumadas, restadas, multiplicadas o divididas, y los resultados de estas operaciones se pueden almacenar en otras variables o en la misma variable original.
+        </p>
+        <pre><code>
+        entero ancho = 10
+        //ancho vale 10
+        entero largo = 15
+        //largo vale 15
+        entero perimetro = ancho + ancho + largo + largo
+        //perimetro vale 50 (10 + 10 + 15 + 15)
+        entero area = ancho * largo
+        //area vale 150 (10 * 15)
+        </code></pre>
+        <p>
+            Además de las operaciones aritméticas básicas, existen otras operaciones que se pueden realizar sobre variables, como la concatenación (unión) de cadenas de texto, la comparación de valores y la asignación de valores a otras variables. Todas estas operaciones son esenciales para la programación, ya que permiten a los programadores manipular y procesar datos de manera efectiva.
+        </p>
+        <pre><code>
+        texto nombre = “Pedro”
+        //nombre vale Pedro
+        texto nombre = “Juan”
+        //ahora nombre vale Juan
+        texto apellido = “Perez”
+        //apellido vale Perez
+        texto nombreCompleto = nombre + “ “ + apellido
+        //nombreCompleto vale Juan Perez, nótese la presencia de “ “, eso 
+        //indica la colocación del carácter ESPACIO, si no se hubiera 
+        //utilizado el resultado hubiera sido JuanPerez
+        </code></pre>
+
+        <p>
+            Cuando se realizan operaciones sobre variables, es importante tener en cuenta el tipo de dato que se está manipulando. Por ejemplo, la suma de dos números enteros dará como resultado otro número entero, mientras que la suma de un número entero y una cadena de texto dará como resultado una cadena de texto que contiene ambos valores concatenados (uno al lado del otro).
+        </p>
+        <pre><code>
+        entero uno = 1
+        //uno vale 1
+        texto one = “1”
+        //one vale 1 (el carácter uno)
+        texto unoMasOne = uno + one
+        //unoMasOne vale 11, ya que al entero lo convierte a texto
+        </code></pre>
+        <p>
+            Es fundamental entender el comportamiento de las operaciones sobre variables en diferentes contextos y situaciones. Una comprensión sólida de estas operaciones es esencial para poder desarrollar programas eficaces y resolver problemas de programación de manera efectiva.
+        </p>
+        <pre><code>
+        booleano argentinaCampeonMundial = verdadero
+        //argentinaCampeonMundial equivale a verdadero (se puede pensar 
+        //como una pregunta a la que se responde SI)
+        entero numeroCopas = 3
+        // numeroCopas vale 3
+        entero sumaBoolConEntero = argentinaCampeonMundial + numeroCopas
+        //Esta operación genera un error en el programa, no se puede sumar //un booleano con un número
+        </code></pre>
+        <h2> Comparaciones de variables </h2>
+        <p>
+            Las comparaciones de variables son una parte importante de la programación, ya que permiten evaluar
+            si una variable es igual, mayor o menor que otra. Para ello, se utilizan operadores de comparación
+            como el igual (==), el distinto (!=), el mayor que (&gt;), el menor que (&lt;), el mayor o igual que (&gt;=)
+            y el menor o igual que (&lt;=). Por ejemplo, si tenemos una variable llamada "edad" con un valor de 10 y
+            queremos evaluar si es mayor que 5, podemos utilizar el operador de comparación mayor que (&gt;):
+        </p>
+        <pre><code>
+        entero edad = 10
+        si (edad > 5)
+        {
+            imprimir ("La edad es mayor que 5")
+        }
+        Sino
+        {
+            imprimir ("La edad es menor o igual a 5")
+        }
+        </code></pre>
+        <p>
+            En este caso, la comparación edad > 5 es verdadera, por lo que se ejecutará el bloque de código dentro del sí. Por lo tanto, se imprimirá "La edad es mayor que 5".
+        </p>
+        <p>
+            Es importante tener en cuenta que las comparaciones también se pueden utilizar para evaluar variables de tipo texto, en cuyo caso se compararán alfabéticamente siguiendo el orden de las letras.
+        </p>
+
+        <h2> Operaciones lógicas </h2>
+
+        <p>
+            Las operaciones lógicas son una parte importante de la programación que permiten comparar valores y tomar decisiones en función de los resultados. Las operaciones lógicas más comunes son la negación (NO), la conjunción (Y) y la disyunción (O).
+        </p>
+        <p>
+            La negación es una operación que invierte el valor de una expresión booleana (de tipo verdadero/falso). Por ejemplo, si una variable llamada "llueve" tiene el valor verdadero, entonces la negación de esa variable tendría el valor falso. La negación se representa con el símbolo "!".
+        </p>
+        <p>
+            La conjunción (Y) es una operación que devuelve verdadero solo si ambas expresiones booleanas son verdaderas. Por ejemplo, si las variables "llueve" y "tengo paraguas" son verdaderas, entonces la expresión "llueve Y tengo paraguas" también será verdadera. La conjunción se representa con el símbolo "&&".
+        </p>
+        <p>
+            La disyunción (O) es una operación que devuelve verdadero si al menos una de las expresiones booleanas es verdadera. Por ejemplo, si las variables "llueve" es falsa y "tengo paraguas" es verdadera, entonces la expresión "llueve OR tengo paraguas" será verdadera, ya que una de las dos lo es. La disyunción se representa con el símbolo "||".
+        </p>
+        <p>
+            Estas operaciones lógicas se utilizan con frecuencia en la programación para tomar decisiones, controlar el flujo del programa y realizar otras tareas. Es importante comprender cómo funcionan y cómo se utilizan para escribir programas eficaces y eficientes.
+        </p>
+
+        <h2> Uso de variables en algoritmos y funciones </h2>
+        <p>
+            Como veremos más adelante, en los algoritmos y funciones, las variables se utilizan para manipular y transformar los datos. Por ejemplo, en una función que convierte una temperatura de Celsius a Fahrenheit, se pueden utilizar variables para almacenar el valor en Celsius y para calcular el valor en Fahrenheit. Luego, estos valores pueden ser devueltos o utilizados en otras partes del programa.
+        </p>
+        <p>
+            A su vez, las variables también pueden ser utilizadas en estructuras de control como condicionales y bucles. Por ejemplo, se pueden utilizar variables para almacenar un contador que se utiliza en un bucle, o para almacenar un resultado de una operación que se utiliza en una estructura condicional para tomar decisiones.
+        </p>
+        <p>
+            En resumen, el uso de variables en algoritmos y funciones es esencial para la manipulación de datos y para controlar el flujo del programa. Las variables permiten almacenar y utilizar valores de manera dinámica, lo que permite que los programas sean más flexibles y adaptables a diferentes situaciones y requerimientos.
+        </p>
+        <h3> Ejercicios: </h3>
+        <ol>
+            <li>
+                Declará las variables numéricas "a" y "b" con valores de 10 y 5 respectivamente. Almacena la suma de ambas en otra variable llamada "suma".
+            </li>
+            <li>
+                Declará las variables numéricas "base" y "altura" con valores de 3 y 4 respectivamente. Almacena el resultado de multiplicar el valor de base por el de altura y luego dividirlo en dos en otra variable llamada "area".
+            </li>
+            <li>
+                Declará la variable numérica "lado" con valor 5. Almacena el perímetro de un cuadrado con ese lado en otra variable llamada "perimetro" (el perímetro de un cuadrado es la suma de todos sus lados).
+            </li>
+            <li>
+                Declará las variables numéricas "radio" y "pi" con valores de 2 y 3.14 respectivamente. Almacena la circunferencia de un círculo con ese radio en otra variable llamada "circunferencia" (el cálculo de la circunferencia de un círculo es dos por pi por radio).
+            </li>
+            <li>
+                Declará la variable numérica "edad" con valor 12. Almacena en otra variable llamada "edadFutura" la edad que tendrá esa persona en 10 años.
+            </li>
+            <li>
+                Declará las variables numéricas "horasTrabajadas" y "pagoHora" con valores de 8 y 10 respectivamente. Almacena en otra variable llamada "sueldo" el pago que recibirá una persona por esas horas trabajadas.
+            </li>
+            <li>
+                Declará las variables numéricas "edad" y "peso" con valores de 25 y 70 respectivamente. Almacena en otra variable llamada "pesoIdeal" el peso que debería tener esa persona de acuerdo a su edad (fórmula: pesoIdeal = edad * 2 + 8).
+            </li>
+            <li>
+                Declará las variables numéricas "a" y "b" con valores de 10 y 5 respectivamente. Intercambia sus valores (es decir, a debería tener el valor de 5 y b el valor de 10).
+            </li>
+            <li>
+                Declará las variables numéricas "a" y "b" con valores de 3 y 4 respectivamente. Almacena en otra variable llamada "esIgual" un valor booleano que indique si a y b son iguales.
+            </li>
+            <li>
+                Declará las variables numéricas "a" y "b" con valores de 10 y 5 respectivamente. Almacena en otra variable llamada "esMayor" un valor booleano que indique si a es mayor que b.
+            </li>
+            <li>
+                Declará las variables numéricas "edad" y "altura" con valores de 12 y 150 respectivamente. Almacena en otra variable llamada "puedeJugar" un valor booleano que indique si la persona puede jugar en una atracción cuyo límite de edad es 10 años y de altura, 140 cm.
+            </li>
+            <li>
+                Declará la variable “minutos” con valor 5. Almacená en otra variable llamada “cantSegundos” la cantidad de segundos que hay en “minutos”
+            </li>
+            <li>
+                Declará la variable “Semanas” con valor 5. Almacená en otra variable llamada “dias” la cantidad de días que hay en “semanas”.
+            </li>
+            <li>
+                Almacena en una variable el resultado de una expresión booleana que evalúa si la concatenación de las cadenas "Hola" y "mundo" es igual a la cadena "Hola mundo".
+            </li>
+        </ol>
+    </section>
+    <section>
+
+        <h1> Estructuras de control </h1>
+        <p>
+            Las estructuras de control básicas son herramientas que permiten a los programadores controlar el flujo de ejecución de un programa. Las tres estructuras de control más básicas son las secuencias, las condicionales y los bucles. Al combinar las tres estructuras de control, se pueden crear programas que realicen tareas complejas y variadas de manera efectiva y eficiente. Por lo tanto, es importante entender cómo funcionan las estructuras de control y cuándo utilizar cada una de ellas para controlar el flujo de un programa.
+        </p>
+        <h2> Secuencias </h2>
+        <p>
+            Las secuencias son una serie de instrucciones que se ejecutan una tras otra, de forma lineal. Esto significa que cada instrucción se ejecuta en el orden en que aparece en el código. Por ejemplo, si se tienen tres instrucciones A, B y C, la secuencia sería A → B → C, y siempre se ejecutarían en ese orden.
+        </p>
+
+        <h2> Estructuras selectivas (Condicionales) </h2>
+        <p>
+            Las estructuras de control condicionales permiten tomar decisiones en función de ciertas condiciones. La estructura más común es la "si-sino", que permite ejecutar un bloque de código si una condición se cumple, y otro bloque de código si la condición no se cumple. Por ejemplo, si se tiene una variable edad y se quiere imprimir "Eres mayor de edad" si la edad es mayor o igual a 18, y "Eres menor de edad" si la edad es menor a 18, se puede utilizar una estructura condicional de la siguiente manera:
+        </p>
+        <pre> <code>
+        si (edad >= 18) {
+            imprimir ("Eres mayor de edad")
+        }
+        Si no
+        {
+            imprimir ("Eres menor de edad")
+        }
+        </code></pre>
+
+        <h2> Estructuras selectivas simples </h2>
+        <p>
+            Las estructuras condicionales simples son una forma de controlar el flujo de un programa en el que se realiza una acción en caso de que una condición sea verdadera. Es decir, si la condición se cumple, se ejecuta una determinada acción, pero si no se cumple, se salta la acción y se continúa con el resto del programa.
+        </p>
+        <p>
+            Por ejemplo, si queremos que un programa avise si hay que usar paraguas solo si el valor de una variable llamada “humedad” es mayor a 80, podemos utilizar una estructura condicional simple. En este caso, la condición sería que la variable sea mayor a 80, y la acción a realizar sería imprimir un mensaje que diga “Llevar paraguas”. Si la condición se cumple, se imprimirá el mensaje, pero si la variable es menor o igual a 80, no se imprimirá nada y se continuará con el resto del programa.
+        </p>
+        <pre> <code>
+        Si (humedad > 80) 
+        {
+            imprimir ("Llevar paraguas")
+        }
+        </code></pre>
+        <p>
+            Es importante recordar que en una estructura condicional simple solo se evalúa una condición y se realiza una acción en caso de que la condición sea verdadera. Si la condición es falsa, no se hace nada y se continúa con el resto del programa.
+        </p>
+
+        <h2> Estructuras selectivas dobles </h2>
+        <p>
+            Continuando con la idea de la lluvia, imaginate que estás en tu casa y querés salir a jugar con tus amigos. Sin embargo, si afuera está lloviendo, no podrás salir a jugar, entonces te quedas jugando videojuegos.
+        </p>
+        <p>
+            En este caso, la condición sería: "Si está lloviendo, juego videojuegos. Si no está lloviendo, puedo salir a jugar".
+        </p>
+        <p>
+            La estructura condicional doble es muy parecida a la simple, pero tiene una diferencia: en vez de sólo una acción para cuando se cumple la condición, tiene dos acciones, una para cuando se cumple la condición y otra para cuando no se cumple.
+        </p>
+        <p>
+            Volvamos al ejemplo de salir a jugar. Podríamos expresar la estructura condicional doble así:
+        </p>
+
+        <pre> <code>
+        Si (está lloviendo)
+        {
+            imprimir (“Juego videojuegos”)
+        }
+        Sino
+        {
+            imprimir (“Puedo salir a jugar”)
+        }
+        </code></pre>
+
+        <p>
+        Como podés ver, hay dos acciones distintas dependiendo de si está lloviendo o no. Si está lloviendo, la acción es "Jugar videojuegos". Si no está lloviendo, la acción es "puedo salir a jugar".
+        </p>
+
+        <h2> Estructuras selectivas múltiples </h2>
+        <p>
+            Son aquellas que permiten evaluar varias condiciones en secuencia. Es decir, si una condición no se cumple, se puede evaluar otra y así sucesivamente.
+        </p>
+        <p>
+            Por ejemplo, imaginemos que queremos programar un robot que camine solo por una habitación. Para ello, podríamos definir las siguientes condiciones: si el camino está despejado, el robot camina hacia adelante; si hay un obstáculo, el robot gira a la derecha; y si hay otro obstáculo en la dirección de la derecha, el robot gira a la izquierda.
+        </p>
+        <p>
+            En este caso, la estructura condicional múltiple nos permite evaluar cada una de estas condiciones en orden. Si la primera condición se cumple, el robot camina hacia adelante. Si la primera condición no se cumple, pero la segunda sí, el robot gira a la derecha. Y así sucesivamente.
+        </p>
+        <p>
+            Un ejemplo de pseudocódigo que utilice una estructura condicional anidada podría ser el siguiente:
+        </p>
+
+        <pre> <code>
+        si (caminoEstaDespejado)
+        {
+            CaminarHaciaAdelante()
+        }
+        sino si (derechaDespejada)
+        {
+            GirarDerecha()
+        }
+        sino si (izquierdaDespejada)
+        {
+            GirarIzquierda()
+        }
+        sino
+        {
+            Frenar ()
+        }
+        </code></pre>
+
+        <p>
+            En este caso, se evalúa la condición “caminoEstaDespejado” en primer lugar. Si se cumple, se ejecuta la acción correspondiente. Si no se cumple, se evalúa la condición “derechaDespejada”. Si se cumple, se ejecuta la acción correspondiente, y así sucesivamente hasta evaluar todas las condiciones posibles.
+        </p>
+
+        <h2> Estructuras selectivas anidadas </h2>
+        <p>
+            Los condicionales anidados son una estructura de control que se utiliza en programación para tomar decisiones más complejas. Imagina que tienes que decidir si llevar un paraguas contigo antes de salir de casa, pero también debes considerar si hace frío o no. Los condicionales anidados te permiten tomar en cuenta múltiples condiciones para tomar una decisión final.
+        </p>
+        <p>
+            Para usar condicionales anidados, primero se comprueba una condición principal y, si se cumple, se evalúa otra condición dentro de ella. Si esta segunda condición también se cumple, se ejecuta un bloque de código determinado. Si la segunda condición no se cumple, se sigue adelante con la ejecución del programa. Cabe aclarar que la segunda condición puede estar anidada en el bloque que corresponde al “si no”.
+        </p>
+        <p>
+            Es importante recordar que los condicionales anidados pueden complicar mucho el código, por lo que es importante usarlos con cuidado y solo cuando sea necesario.
+        </p>
+        <p>
+            En este ejemplo, se utiliza un condicional anidado clasificar el estado de un estudiante. Tenemos dos variables que corresponden a las notas alcanzadas por el mismo durante el transcurso del año lectivo. Existe, además, una variable que corresponde a la nota de un examen recuperatorio, si hiciera falta. Se declara, también, una variable promedio que sima los valores de los dos semestres y los divide por dos. Entonces: Si el promedio del estudiante no llega a 6 entonces el estudiante ha tenido que realizar un recuperatorio, si en este examen la notes es mayor o igual a seis quiere decir que es estudiante está aprobado en un recuperatorio, si no, significa que el estudiante ha agotado sus instancias evaluativas y no pudo aprobar la materia. Luego, y solo si el promedio alcanzado es mayor o igual a 6, el estudiante se considerará aprobado.
+        </p>
+
+        <pre><code>
+        entero semestre_1;
+        entero semestre_2;
+        entero recuperatorio;
+        entero promedio = (examen_1 + examen_2) / 2
+        si (promedio &lt; 6) 
+        { 
+            si (recuperatorio>= 6)
+            {
+                imprimir(“Estudiante aprobado en recuperatorio”)
+            }
+            sino
+            {
+                imprimir(“Estudiante desaprobado”)
+            }
+        }
+        si no
+        {
+            imprimir(“Estudiante aprobado”)
+        }
+        </code></pre>
+
+        <h2> Sintaxis de los condicionales </h2>
+
+        <h3> Estructura selectiva simple </h3>
+        <pre><code>
+        si(&lt;condición&gt;)
+        {
+            //Bloque de código
+        }
+        </code></pre>
+
+        <h3> Estructura selectiva doble</h3>
+
+        <pre><code>
+        si(&lt;condición&gt;)
+        {
+            //Bloque de código por el si
+        }
+        si no
+        {
+            //Bloque de código por el no
+        }
+        </code></pre>
+
+        <h3> Estructura selectiva múltiple</h3>
+        <pre><code>
+        si (&lt;condición 1&gt;)
+        {
+            //Bloque de código si la condición 1 es cierta
+        }
+        si no si (&lt;condición 2&gt;)
+        {
+            //Bloque de código si la condición 1 es cierta
+        }
+        si no si (&lt;condición n&gt;)
+        {
+            //Bloque de código si la condición 1 y 2 son falsas y la condición n verdadera
+        }
+        Si no
+        {
+            //Bloque de código si ninguna condición es verdadera
+        }
+        </code></pre>
+
+        <h3> Estructura selectiva anidada</h3>
+        <pre><code>
+        si (<condición 1>)
+        {
+            si (&lt;condición a&gt;)
+            {
+                //Bloque de código si condición 1 y b son verdaderas
+            }
+            si no
+            {
+                //Bloque de código si condición 1 es verdadera pero condición b es falsa
+            }
+        }
+        si no
+        {
+            si (&lt;condición c&gt;)
+            {
+                //Bloque de código si condición 1 es falsa pero condición c es verdadera
+            }
+            si no
+            {
+                //Bloque de código si condición 1 y c son falsas
+            }
+        }
+        </code></pre>
+
+        <h3> Ejercicios: </h3>
+        <ol>
+            <li>
+                Si una persona tiene más de 18 años, mostrar "Eres mayor de edad", de lo contrario, mostrar "Aún eres menor".
+            </li>
+            <li>
+                Si el número ingresado por el usuario es mayor que 100, mostrar "Número muy grande", de lo contrario, mostrar "Número aceptable".
+            </li>
+            <li>
+                Si un estudiante tiene una calificación mayor o igual a 6, mostrar "Aprobaste", de lo contrario, mostrar "Reprobaste".
+            </li>
+            <li>
+                Si un número es mayor que 0 y menor que 10, mostrar "El número está en el rango adecuado", de lo contrario, mostrar "El número no está en el rango adecuado".
+            </li>
+            <li>
+                Si el número ingresado es igual a 0, mostrar "El número es 0", de lo contrario, si es positivo mostrar "Número positivo", de lo contrario, mostrar "Número negativo".
+            </li>
+            <li>
+                Si el número ingresado es mayor o igual a 10 y menor o igual a 20, mostrar "El número está en el rango adecuado", de lo contrario, mostrar "El número no está en el rango adecuado".
+            </li>
+            <li>
+                Si un día de la semana es sábado o domingo, mostrar "Es fin de semana", de lo contrario, mostrar "Es día laboral".
+            </li>
+            <li>
+                Escribe un programa que pregunte al usuario su género y si es masculino, le muestre un mensaje que diga "Bienvenido", de lo contrario, le muestre un mensaje que diga "Bienvenida".
+            </li>
+            <li>
+                Escribe un programa que pregunte al usuario un número del 1 al 7 y le muestre el día de la semana correspondiente (1 = lunes, 2 = martes, etc.).
+            </li>
+            <li>
+                Escribe un programa que pregunte al usuario un número del 1 al 12 y le muestre el mes correspondiente (1 = enero, 2 = febrero, etc.).
+            </li>
+            <li>
+                Escribe un programa que pregunte al usuario su edad y si tiene más de 65 años o menos de 18 años, le muestre un mensaje que diga "No puede conducir", de lo contrario, le muestre un mensaje que diga "Puede conducir".
+            </li>
+            <li>
+                Escribe un programa que en base a una variable de tipo texto que puede tener los valores humano, elfo y enano determine si se realiza un ataque con espada, con arco o con hacha, respectivamente.
+            </li>
+            <li>
+                Escribe un programa que en base al estado de un semáforo (“verde”, “amarillo”, “rojo”) imprima si se puede avanzar, avanzar con precaución o si se debe frenar.
+            </li>
+            <li>
+                Escribe un programa que reciba la hora (en formato de 24hs) y nos diga imprima si es de noche o de día.
+            </li>
+            <li>
+                Escribe un programa que, en base a un mes, nos imprima la estación en la que estamos.
+            </li>
+        </ol>
+
+
+        <h2> Bucles </h2>
+        <p>
+            Las estructuras de control de bucles permiten repetir una sección de código varias veces.
+        </p>
+
+        <h3> Repetir </h3>
+        <p>
+            El bucle "repetir" es una estructura de control que se utiliza para repetir una tarea varias veces. Es muy útil cuando necesitamos que una tarea se realice un número específico de veces.
+        </p>
+        <p>
+            El bucle "repetir" comienza con la palabra clave "repetir", seguida de un número que indica cuántas veces se debe repetir la tarea. Después del número, se escribe el código que se desea repetir. Una vez que se completa el código, el programa vuelve al inicio del bucle "repetir" y repite el código nuevamente. Este proceso se repite hasta que se ha completado el número especificado de repeticiones.
+        </p>
+        <p>
+            Por ejemplo, si queremos imprimir la frase "Hola" cinco veces en la pantalla, podemos usar un bucle "repetir". El código se vería así:
+        </p>
+
+        <pre> <code>
+        repetir (5)
+        {
+            imprimir("Hola")
+        }
+        </code></pre>
+
+        <p>
+        En este ejemplo, el bucle "repetir" se repite cinco veces, imprimiendo la frase "Hola" en cada repetición. Cuando se han completado las cinco repeticiones, el bucle se detiene y el programa continúa con la siguiente instrucción.
+        </p>
+        <p>
+        El bucle "repetir" es una herramienta muy útil para simplificar el código y hacer que los programas sean más eficientes y fáciles de leer.
+        </p>
+
+        <h3> Mientras</h3>
+        <p>
+            El bucle "mientras" es una estructura en programación que se utiliza para repetir una serie de instrucciones mientras una condición sea verdadera. Básicamente, el bucle comienza evaluando una condición, y si esta es verdadera, ejecuta un bloque de código. Luego, vuelve a evaluar la condición y repite este proceso hasta que la condición sea falsa.
+        </p>
+        <p>
+            Por ejemplo, imagina que queremos cruzar una calle en la que hay un semáforo, pero cuando llegamos a la esquina nos encontramos con que el semáforo está en rojo, en ese caso, lo que debemos hacer es frenar mientras el semáforo siga rojo. Podríamos expresarlo de la siguiente manera:
+        </p>
+
+        <pre> <code>
+        mientras (colorSemáforo == “rojo”)
+        {
+            Frenar ()
+            EsperarSegundos(1)
+        }
+        Avanzar ()
+        </code></pre>
+
+        <p>
+            Es importante asegurarse de que la condición del bucle "mientras" eventualmente se vuelva falsa, de lo contrario, el bucle continuará ejecutándose indefinidamente, lo que se conoce como un bucle infinito. En general, el bucle "mientras" se utiliza para repetir una acción mientras se cumple una condición específica.
+        </p>
+
+        <h3> Para (For)</h3>
+
+        <p>
+            El bucle para es otra estructura de control de programación que nos permite repetir una acción varias veces de manera controlada. A diferencia del bucle mientras, el bucle para se utiliza cuando se conoce de antemano la cantidad de veces que se quiere repetir la acción.
+        </p>
+        <p>
+            El bucle para consta de tres partes: la inicialización, la condición y la actualización, cada uno separado con “;” (punto y coma). En la inicialización, se define el valor inicial de una variable que se utilizará como contador. En la condición, se indica cuándo se debe detener el bucle y en la actualización, se indica cómo se debe actualizar el valor del contador en cada iteración.
+        </p>
+        <p>
+            Por ejemplo, si queremos repetir la impresión de los números del 1 al 5, podemos utilizar un bucle para de la siguiente manera:
+        </p>
+
+        <pre> <code>
+            para (entero i = 1; 1 &lt;= 5; i=i + 1)
+            { 
+                imprimir(i) 
+            } 
+        </code></pre>
+
+        <p>
+            En este caso, la variable i se utiliza como contador y se inicializa en 1. La condición es que i sea menor o igual a 5 y la actualización es que en cada iteración se aumenta el valor de i en 1. El bucle para es muy útil para realizar operaciones con listas, ya que podemos recorrer todos los elementos de la lista en un solo bloque de código. Además, podemos utilizar el contador para acceder a elementos específicos de la lista o para realizar operaciones que dependan del índice del elemento.
+        </p>
+
+        <h2> Sintaxis de los bucles<h2>
+        <h3> Repetir</h3>
+        
+        <pre><code>
+        repetir (<entero hasta>)
+        {
+            //Bloque de código
+        }
+        </code></pre>
+
+        <h3>Mientras</h3>
+        <pre><code>
+        mientras (<condición>)
+        {
+            //Bloque de código
+        }
+        </code></pre>
+
+        <h3>Para</h3>
+        <pre><code>
+        para(&lt;iniciación&gt;; &lt;condición&gt;; &lt;actualización&gt;)
+        {
+            //Bloque de código
+        }
+        </code></pre>
+        
+        <h3> Ejercicios </h3>
+        
+        <h4> Usando Repetir </h4>
+        <ol>
+            <li>
+                Crear un programa que solicite al usuario que ingrese un número entero positivo. Luego, el programa debe imprimir en pantalla los primeros n números naturales utilizando la estructura repetir.
+            </li>
+            <li>
+                Crear un programa que genere obtenga un número elevado a cierta potencia. Para elevar un número a una potencia este deberá multiplicarse a por sí mismo la cantidad de veces que lo indique la potencia.
+            </li>
+            <li>
+                Crear un programa que genere una serie de números de Fibonacci. La serie de Fibonacci es una serie de números en la que cada número es la suma de los dos números anteriores. La estructura repetir se puede utilizar para generar la serie hasta cierto límite.
+            </li>
+            <li>
+                Crear un programa que simule una carrera entre dos corredores. Cada corredor tiene una velocidad aleatoria y se mueven en una pista de longitud fija. Se puede utilizar la estructura repetir para simular los movimientos de los corredores y determinar el ganador.
+            </li>
+            <h4>Usando Mientras</h4>
+            <li>
+                Crea un programa que pida al usuario que adivine un número entre 1 y 10. Si el usuario adivina el número, el programa debe imprimir "¡Adivinaste!" y salir del bucle mientras. De lo contrario, el programa debe pedir al usuario que intente adivinar de nuevo.
+            </li>
+            <li>
+                Escribe un programa que pida al usuario que ingrese un número. El programa debe imprimir todos los números pares del 0 al número ingresado por el usuario utilizando un bucle mientras.
+            </li>
+            <li>
+                Crea un programa que solicite al usuario que ingrese una contraseña. Si la contraseña ingresada no coincide con la contraseña correcta, el programa debe solicitar al usuario que ingrese la contraseña nuevamente. El programa debe continuar pidiendo la contraseña hasta que se ingrese la contraseña correcta.
+            </li>
+            <li>
+                Realizar un juego de adivinanza en el que el usuario tiene que adivinar una letra aleatoria entre "A" y "Z". Si el usuario no adivina la letra después de 5 intentos, el programa mostrará la letra y se terminará el juego.
+            </li>
+            <h4> Usando Para</h4>
+            <li>
+                Imprimir los primeros 10 números enteros.
+            </li>
+            <li>
+                Imprimir los primeros 5 números pares.
+            </li>
+            <li>
+                Imprimir la tabla del 7 hasta el 70.
+            </li>
+            <li>
+                Imprimir los números del 10 al 1 en orden descendente.
+            </li>
+        </ol>
+    </section>
+    <section>
+
+        <h1> Métodos y funciones </h1>
+        <p>
+            En programación, un método o función es un bloque de código que permite realizar una tarea específica. Imagina que un método es como una mini herramienta dentro de un programa que puede ser reutilizada varias veces para hacer diferentes cosas.
+        </p>
+        <p>
+            El uso de métodos o funciones es muy importante porque ayuda a hacer el código más organizado, fácil de entender y de mantener. En lugar de repetir el mismo código varias veces en diferentes partes del programa, puedes crear un método que contenga esas instrucciones y luego invocarlo cada vez que lo necesites.
+        </p>
+        <p>
+            Además, los métodos o funciones pueden recibir datos de entrada, procesarlos y devolver un resultado. Esto los hace muy útiles para automatizar tareas y hacer que el programa sea más flexible y adaptable a diferentes situaciones.
+        </p>
+        <p>
+            En resumen, los métodos o funciones son herramientas muy útiles en programación porque nos permiten organizar mejor el código, reducir la redundancia y hacer el programa más fácil de mantener y actualizar.
+        </p>
+
+        <h2> Declaración e invocación de una función </h2>
+
+        <pre><code>
+        función &lt;tipo de valor devuelto&gt;* &lt;Nombre&gt; ()
+        {
+            //Bloque de código
+            *devolver &lt;valor&gt;
+        }
+
+        &lt;tipo&gt; &lt;resultado&gt; * = &lt;Nombre de función&gt; (&lt;parámetros&gt;*)
+        </code></pre>
+        <p>
+            *opcional
+        </p>
+
+        <h2> Funciones sin parámetros ni retorno </h2>
+        <p>
+            Una función es un conjunto de instrucciones que hacen una tarea específica. Si una función no recibe parámetros ni tiene un valor de retorno, significa que la función no necesita de información adicional para realizar su tarea y tampoco devuelve nada al final de su ejecución.
+        </p>
+        <p>
+            Por ejemplo, supongamos que quisiéramos hacer un programa que rece el rosario podríamos crear (declarar) una función que se llame AveMaria que rece esa oración:
+        </p>
+        <pre><code>
+        función AveMaria()
+        {
+            imprimir (“Dios te salve Maria, llena eres de gracia,”)
+            imprimir (“el señor es contigo”)
+            imprimir (“Bendita tu eres entre todas las mujeres”)
+            imprimir (“y bendito es el fruto de tu vientre, Jesús”)
+            imprimir (“Santa Maria, madre de Dios”)
+            imprimir (“Ruega por nosotros Pecadores”)
+            imprimir (“ahora y en la hora de nuestra muerte”)
+            imprimir(“Amén”)
+        }
+        </code></pre>
+        
+        <p>
+            La podríamos usar (invocar) en el siguiente contexto:
+        </p>
+        <pre><code>
+        Repetir (5)
+        {
+            //Podríamos suponer que PadreNuestro es una función similar a AveMaria, solo que ora el padrenuestro
+            //Lo mismo aplica para Gloria
+            PadreNuestro()
+            Repetir (10)
+            {
+                AveMaria()
+            }
+            Gloria ()
+        }
+        </code></pre>
+
+        <h2> Funciones con parámetros, pero sin retorno </h2>
+        <p>
+            Una función que recibe parámetros es una especie de receta que espera ciertos ingredientes para poder hacer algo con ellos. En este caso, aunque la función no tiene un resultado final que devolver, sí necesita que le pasen algunos datos para poder hacer algo con ellos. Por ejemplo, imagina una función llamada "saludar" que recibe un nombre como parámetro. Lo que hace la función es simplemente imprimir un mensaje de saludo que incluye el nombre que le pasaste como parámetro. Entonces, cada vez que quieras saludar a alguien, simplemente llamas (invocas) a la función "saludar" y le pasas el nombre de la persona como parámetro. La función no te devuelve ningún valor, pero sí te muestra un mensaje con el saludo.
+        </p>
+        <pre><code>
+            función Saludar (texto nombre)
+            {
+                texto saludo = “Hola “ + nombre + “, es un gusto verte”
+                imprimir (saludo)
+            }
+
+            Saludar(“Pepe”)
+            //Se va a leer “Hola Pepe, es un gusto verte”
+        </code></pre>
+
+
+        <h2> Funciones sin parámetro, pero con retorno</h2>
+
+        <p>
+            Una función que no recibe parámetros, pero tiene un valor de retorno es como si tuvieras una especie de "máquina" en la que le metes una cosa y te devuelve otra cosa diferente. Por ejemplo, imagina que tienes una función llamada "TirarDado()" que no necesita recibir nada, pero cuando la llamas te devuelve un número aleatorio entre 1 y 6.
+        </p>        
+        <p>
+            Podrías usar esa función en tu programa para obtener un número al azar y hacer algo con él, como mostrarlo en la pantalla o hacer alguna operación matemática. Es como si le pidieras a la función que te dé un número al azar y luego tú decides qué hacer con ese número.
+        </p>
+        <p>
+            La parte importante de este tipo de función es que tiene un "devolver", que es lo que le indica a la función qué valor debe devolver. Es como si estuvieras diciendo "cuando alguien llame a esta función, devuelve esto".
+        </p>
+
+        <pre><code>
+        funcion entero TirarDado()
+        {
+            entero dado = NumeroAleatorio() * 6
+            devolver dado;
+        }
+
+        //Cada vez que se llame (invoque) a la función TirarDado nos va a devolver un número entre 1 y 6
+        entero moverCasilleros = TirarDado()
+        </code></pre>
+
+        <h2> Funciones con parámetro y con retorno</h2>
+        <p>
+            Una función que recibe parámetros y retorna un valor es una especie de "máquina" que toma algunos valores (los parámetros) como entrada, hace algunos cálculos y devuelve un resultado (el valor de retorno).
+        </p>
+        <p>
+            Por ejemplo, podrías tener una función llamada "sumar" que toma dos números como entrada (los parámetros), luego los suma juntos y devuelve el resultado como un valor de retorno. De esta manera, cada vez que quieras sumar dos números diferentes, puedes simplemente llamar a la función "sumar" en lugar de escribir el código para sumar los números cada vez.
+        </p>
+
+        <pre><code>
+        función Cuadrado (entero numero_1)
+        {
+            devolver numero_1 * numero_1;
+        }
+        entero potencia = Cuadrado (4)
+        //potencia vale 16
+        </code></pre>
+
+        <h3> En pseudocódigo, se define un método utilizando la siguiente sintaxis:</h3>
+        
+        <pre><code>
+        funcion tipo_de_retorno NombreFuncion(parametro1, ..., parametroN)
+        {
+            // Cuerpo de la función
+            // Puede incluir cualquier tipo de instrucción, incluyendo otras
+            // funciones o estructuras de control.
+            retornar valor_de_retorno
+        }
+        </code></pre>
+
+        <p>
+            En esta estructura, NombreFuncion es el nombre que se le da al método y parametro1, parametro2, ..., parametroN son los parámetros que se le pasan a la función. Estos parámetros son variables que se utilizan dentro de la función para realizar cálculos o tomar decisiones.
+        </p>
+        <p>
+            El cuerpo de la función es donde se escribe el código que realiza las operaciones que se quieren hacer. Puede incluir cualquier tipo de instrucción, como variables, operaciones, estructuras de control y llamados a otras funciones.
+        </p>
+        <p>
+            Por último, valor_de_retorno es el valor que devuelve la función. Este valor puede ser de cualquier tipo de dato, como números, cadenas de texto, booleanos, objetos, entre otros.
+        </p>
+        <p>
+            En resumen, un método es una sección de código que se puede reutilizar en diferentes partes de un programa para realizar una tarea específica. Se define mediante una función que puede tomar parámetros y devolver un valor de retorno.
+        </p>
+
+        <h3> Ejercicios:</h3>
+        <ol>
+            <li>
+                Método "Cocinar pasta": Crea un método que tome como entrada el tipo de pasta, la cantidad de agua y sal, y el tiempo de cocción. El método debe imprimir los pasos necesarios para cocinar la pasta correctamente.
+            </li>
+            <li>
+                Método "Hacer un sándwich": Crea un método que tome como entrada el tipo de pan, el relleno y los aderezos. El método debe imprimir los pasos necesarios para hacer un sándwich delicioso.
+            </li>
+            <li>
+                Método "Preparar una limonada": Crea un método que tome como entrada el número de limones, el agua, el azúcar y el hielo. El método debe imprimir los pasos necesarios para preparar una limonada refrescante.
+            </li>
+            <li>
+                Método "Hacer un cuadrado": Crea un método que tome como entrada la longitud de los lados del cuadrado. El método debe imprimir las instrucciones para hacerlo.
+            </li>
+            <li>
+                Ejercicio de cálculo de propinas: Escribe un algoritmo que calcule la propina que se debe dar en un restaurante. Se le pedirá al usuario que ingrese el costo total de la comida, y el porcentaje de propina que desea dejar
+            </li>
+            <li>
+                Juego de adivinanza de números: Escribe un programa que permita al usuario adivinar un número aleatorio que ha sido generado por el programa. El programa deberá ir dando pistas si el número ingresado es mayor o menor al número generado.
+            </li>
+            <li>
+                Conversor de unidades: Escribe un programa que permita al usuario convertir una unidad de medida a otra. Por ejemplo, convertir millas a kilómetros, o grados Celsius a Fahrenheit.
+            </li>
+        </ol>
+    </section>
+    <section>
+
+        <h1> Programación orientada a objetos </h1>
+
+        <p>
+            La programación orientada a objetos es una forma de escribir programas de computadora que se enfoca en los objetos. Un objeto es como una cosa que tiene características y puede hacer ciertas cosas. Por ejemplo, un objeto "perro" puede tener características como tamaño, color y raza, y puede hacer cosas como ladrar y correr. La programación orientada a objetos ayuda a organizar el código y hacer que sea más fácil de entender y mantener.
+        </p>
+        <p>
+            La programación orientada a objetos se basa en la idea de que un programa es como un conjunto de objetos que interactúan entre sí. Cada objeto tiene un conjunto de características (también llamadas propiedades o atributos) y acciones que puede realizar (también llamadas métodos). Estas características y acciones son específicas del objeto y se definen en una clase. Las clases son como plantillas para crear objetos. La programación orientada a objetos se utiliza en muchos lenguajes de programación, como Java, Python y C++.
+        </p>
+        <p>
+            Las principales características de la POO son la encapsulación, el polimorfismo y la herencia. La encapsulación consiste en ocultar los detalles internos de un objeto y proporcionar una interfaz para interactuar con él. El polimorfismo permite que los objetos de diferentes clases puedan responder a un mismo mensaje o método de manera diferente. La herencia permite la creación de nuevas clases a partir de otras ya existentes, reutilizando su estructura y comportamiento.
+        </p>
+        <ul>
+            <li>
+                Encapsulación: 
+                Es una forma de organizar el código para que sea más fácil de entender y de mantener. Imagina que tienes una caja de juguetes y cada juguete está dentro de su propio compartimento. De esa manera, sabes dónde está cada cosa y es más fácil jugar con ellos. En la programación, la encapsulación es como dividir el código en secciones separadas para que sea más fácil de entender y cambiar.
+            </li>
+            <li>
+                Polimorfismo:
+                Esta palabra significa "muchas formas". En programación, el polimorfismo permite que un objeto tenga muchas formas. Por ejemplo, una bicicleta puede tener muchas formas, como una bicicleta de carreras o una bicicleta de montaña. Pero, aunque tienen diferentes formas, siguen siendo una bicicleta. En la programación, esto significa que un objeto puede tener diferentes formas, pero todavía se comporta de la misma manera.
+            </li>
+            <li>
+                Herencia:
+                La herencia es como cuando alguien hereda algo de su familia. En la programación, significa que una clase de objetos puede "heredar" características de otra clase de objetos. Por ejemplo, una clase de objetos "Coche" puede heredar características de la clase de objetos "Vehículo". Esto significa que el "Coche" tendría todas las características de un "Vehículo", como las ruedas, el motor, etc. Pero también tendría sus propias características únicas, como la carrocería y el color.
+            </li>
+        </ul>
+        <h2> Clases y objetos: definición, creación y uso. </h2>
+        <p>
+            Las clases son como plantillas o moldes que sirven para crear objetos en la programación orientada a objetos. Cada objeto creado a partir de una clase tiene características propias, pero sigue la estructura y comportamiento definidos en la clase.
+        </p>
+        <p>
+            Para crear un objeto, primero se debe definir una clase y luego crear una instancia (un objeto) de esa clase. La creación de un objeto a partir de una clase se conoce como "instanciación".
+        </p>
+        <p>
+            Los objetos creados a partir de una misma clase pueden interactuar entre sí, y con objetos de otras clases, mediante el uso de métodos y propiedades que definen su comportamiento.
+        </p>
+        <p>
+            El uso de clases y objetos permite una programación más organizada, estructurada y modular, lo que facilita la creación y mantenimiento de programas más grandes y complejos.
+        </p>
+        
+        <h2> Métodos y atributos de objetos. </h2>
+        <p>
+            Los objetos en programación orientada a objetos tienen métodos y atributos. Los métodos son como acciones que un objeto puede realizar, mientras que los atributos son características que definen al objeto. Por ejemplo, un objeto de la clase "Perro" puede tener un método llamado "ladrar" y un atributo llamado "raza". Los métodos pueden modificar los atributos del objeto y realizar operaciones más complejas. En cambio, los atributos son valores almacenados en el objeto que describen su estado o características. Los métodos y atributos son importantes para definir comportamientos y propiedades de los objetos en un programa.
+        </p>
+        <h3> Ejercicios:</h3>
+        <ol>
+            <li>
+                Crea una clase "Persona" con los atributos "nombre", "edad" y "género". Luego, crea varios objetos de esta clase para representar a diferentes personas que conoces.
+            </li>
+            <li>
+                Crea una clase "Coche" con los atributos "marca", "modelo", "año" y "precio". Añade un método que calcule el valor actual del coche en función del año y del precio original. Crea varios objetos de esta clase y utiliza este método para calcular su valor actual.
+            </li>
+            <li>
+                Crea una clase "Mascota" con los atributos "nombre", "edad", "tipo" y "dueño". Añade un método que devuelva la edad de la mascota en meses. Crea varios objetos de esta clase y utiliza este método para calcular la edad en meses de cada mascota.
+            </li>
+        </ol>
+    </section>
+</body>
+
+</html>
