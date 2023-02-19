@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Programación</title>
 </head>
 
@@ -85,10 +86,13 @@
             <p>
                 En el transcurso del texto nos vamos a encontrar con ciertos elementos específicos sobre los cuales no vamos a profundizar, pero es importante que sepan más o menos de qué tratan:
             </p>
+            <aside>
             <h5> Comentarios </h5>
             <p>
                 Cada lenguaje utiliza combinaciones diferentes, pero en este texto vamos a usar las dos barras “//”. Cuando aparece este signo al inicio de un renglón quiere decir que ese renglón no se va a ejecutar, que no cuenta como parte del programa, es solo para aclarar o dar contexto a lo que está escrito.
             </p>
+            </aside>
+            <aside>
             <h5> Imprimir </h5>
             <p>
                 La función imprimir es una que recibe un texto y lo muestra en pantalla, todos los lenguajes de programación implementan una función imprimir de una forma u otra.
@@ -99,7 +103,8 @@
             <pre><code>
                 imprimir (“Texto que queremos mostrar en pantalla encerrado entre comillas”) 
             </code></pre>
-
+            </aside>
+            <aside>
             <h5> Leer </h5>
             <p>
                 En algunos ejercicios vamos a encontrarnos con que se pide que se “lea” un valor ingresado por el usuario. Para eso usamos la función leer, la cual se utiliza de la siguiente manera:
@@ -110,6 +115,7 @@
             <p>
                 Más adelante veremos las variables y el uso de esta función se hará más claro.
             </p>
+            </aside>
         </aside>
         <p>
             Ejemplo de un algoritmo, escrito en lenguaje natural sobre como vestirse:
@@ -129,8 +135,8 @@
         10. Si no estás satisfecho, volver al paso 1.
     }
         </pre> </code>
-        <h3> Ejercicios:</h3>
-        <ol>
+        <ol class="exercises">
+            <h3> Ejercicios:</h3>
             <li>
                 <b>
                 Algoritmo para cepillarse los dientes: 
@@ -260,9 +266,9 @@
         <pre><code>
         variable* &lt;tipo&gt; &lt;nombre&gt; = &lt;valor&gt;
         </code></pre>
-        <p>
+        <i>
             *opcional
-        </p>
+        </i>
         <p>
             Es importante mencionar que, en algunos lenguajes de programación, las variables deben ser declaradas antes de ser asignadas, mientras que en otros lenguajes se pueden declarar y asignar en la misma línea. En esta misma línea podemos decir que no todos los lenguajes de programación aceptan los mismos tipos de variables, pero en general podemos encontrar los siguientes tipos:
         </p>
@@ -394,8 +400,8 @@
         <p>
             En resumen, el uso de variables en algoritmos y funciones es esencial para la manipulación de datos y para controlar el flujo del programa. Las variables permiten almacenar y utilizar valores de manera dinámica, lo que permite que los programas sean más flexibles y adaptables a diferentes situaciones y requerimientos.
         </p>
-        <h3> Ejercicios: </h3>
-        <ol>
+        <ol class="exercises">
+            <h3> Ejercicios: </h3>
             <li>
                 Declará las variables numéricas "a" y "b" con valores de 10 y 5 respectivamente. Almacena la suma de ambas en otra variable llamada "suma".
             </li>
@@ -456,7 +462,8 @@
             Las estructuras de control condicionales permiten tomar decisiones en función de ciertas condiciones. La estructura más común es la "si-sino", que permite ejecutar un bloque de código si una condición se cumple, y otro bloque de código si la condición no se cumple. Por ejemplo, si se tiene una variable edad y se quiere imprimir "Eres mayor de edad" si la edad es mayor o igual a 18, y "Eres menor de edad" si la edad es menor a 18, se puede utilizar una estructura condicional de la siguiente manera:
         </p>
         <pre> <code>
-        si (edad >= 18) {
+        si (edad >= 18) 
+        {
             imprimir ("Eres mayor de edad")
         }
         Si no
@@ -465,7 +472,7 @@
         }
         </code></pre>
 
-        <h2> Estructuras selectivas simples </h2>
+        <h3> Estructuras selectivas simples </h3>
         <p>
             Las estructuras condicionales simples son una forma de controlar el flujo de un programa en el que se realiza una acción en caso de que una condición sea verdadera. Es decir, si la condición se cumple, se ejecuta una determinada acción, pero si no se cumple, se salta la acción y se continúa con el resto del programa.
         </p>
@@ -482,7 +489,7 @@
             Es importante recordar que en una estructura condicional simple solo se evalúa una condición y se realiza una acción en caso de que la condición sea verdadera. Si la condición es falsa, no se hace nada y se continúa con el resto del programa.
         </p>
 
-        <h2> Estructuras selectivas dobles </h2>
+        <h3> Estructuras selectivas dobles </h3>
         <p>
             Continuando con la idea de la lluvia, imaginate que estás en tu casa y querés salir a jugar con tus amigos. Sin embargo, si afuera está lloviendo, no podrás salir a jugar, entonces te quedas jugando videojuegos.
         </p>
@@ -511,7 +518,7 @@
         Como podés ver, hay dos acciones distintas dependiendo de si está lloviendo o no. Si está lloviendo, la acción es "Jugar videojuegos". Si no está lloviendo, la acción es "puedo salir a jugar".
         </p>
 
-        <h2> Estructuras selectivas múltiples </h2>
+        <h3> Estructuras selectivas múltiples </h3>
         <p>
             Son aquellas que permiten evaluar varias condiciones en secuencia. Es decir, si una condición no se cumple, se puede evaluar otra y así sucesivamente.
         </p>
@@ -548,7 +555,7 @@
             En este caso, se evalúa la condición “caminoEstaDespejado” en primer lugar. Si se cumple, se ejecuta la acción correspondiente. Si no se cumple, se evalúa la condición “derechaDespejada”. Si se cumple, se ejecuta la acción correspondiente, y así sucesivamente hasta evaluar todas las condiciones posibles.
         </p>
 
-        <h2> Estructuras selectivas anidadas </h2>
+        <h3> Estructuras selectivas anidadas </h3>
         <p>
             Los condicionales anidados son una estructura de control que se utiliza en programación para tomar decisiones más complejas. Imagina que tienes que decidir si llevar un paraguas contigo antes de salir de casa, pero también debes considerar si hace frío o no. Los condicionales anidados te permiten tomar en cuenta múltiples condiciones para tomar una decisión final.
         </p>
@@ -584,9 +591,9 @@
         }
         </code></pre>
 
-        <h2> Sintaxis de los condicionales </h2>
+        <h3> Sintaxis de los condicionales </h3>
 
-        <h3> Estructura selectiva simple </h3>
+        <h4> Estructura selectiva simple </h4>
         <pre><code>
         si(&lt;condición&gt;)
         {
@@ -594,7 +601,7 @@
         }
         </code></pre>
 
-        <h3> Estructura selectiva doble</h3>
+        <h4> Estructura selectiva doble</h4>
 
         <pre><code>
         si(&lt;condición&gt;)
@@ -607,7 +614,7 @@
         }
         </code></pre>
 
-        <h3> Estructura selectiva múltiple</h3>
+        <h4> Estructura selectiva múltiple</h4>
         <pre><code>
         si (&lt;condición 1&gt;)
         {
@@ -627,7 +634,7 @@
         }
         </code></pre>
 
-        <h3> Estructura selectiva anidada</h3>
+        <h4> Estructura selectiva anidada</h4>
         <pre><code>
         si (<condición 1>)
         {
@@ -654,7 +661,7 @@
         </code></pre>
 
         <h3> Ejercicios: </h3>
-        <ol>
+        <ol class="exercises">
             <li>
                 Si una persona tiene más de 18 años, mostrar "Eres mayor de edad", de lo contrario, mostrar "Aún eres menor".
             </li>
@@ -777,8 +784,8 @@
             En este caso, la variable i se utiliza como contador y se inicializa en 1. La condición es que i sea menor o igual a 5 y la actualización es que en cada iteración se aumenta el valor de i en 1. El bucle para es muy útil para realizar operaciones con listas, ya que podemos recorrer todos los elementos de la lista en un solo bloque de código. Además, podemos utilizar el contador para acceder a elementos específicos de la lista o para realizar operaciones que dependan del índice del elemento.
         </p>
 
-        <h2> Sintaxis de los bucles<h2>
-        <h3> Repetir</h3>
+        <h3> Sintaxis de los bucles<h3>
+        <h4> Repetir</h4>
         
         <pre><code>
         repetir (<entero hasta>)
@@ -787,7 +794,7 @@
         }
         </code></pre>
 
-        <h3>Mientras</h3>
+        <h4>Mientras</h4>
         <pre><code>
         mientras (<condición>)
         {
@@ -795,7 +802,7 @@
         }
         </code></pre>
 
-        <h3>Para</h3>
+        <h4>Para</h4>
         <pre><code>
         para(&lt;iniciación&gt;; &lt;condición&gt;; &lt;actualización&gt;)
         {
@@ -803,10 +810,10 @@
         }
         </code></pre>
         
-        <h3> Ejercicios </h3>
-        
-        <h4> Usando Repetir </h4>
-        <ol>
+        <ol class="exercises">
+            <h3> Ejercicios </h3>
+            
+            <h4> Usando Repetir </h4>
             <li>
                 Crear un programa que solicite al usuario que ingrese un número entero positivo. Luego, el programa debe imprimir en pantalla los primeros n números naturales utilizando la estructura repetir.
             </li>
@@ -874,9 +881,9 @@
 
         &lt;tipo&gt; &lt;resultado&gt; * = &lt;Nombre de función&gt; (&lt;parámetros&gt;*)
         </code></pre>
-        <p>
+        <i>
             *opcional
-        </p>
+        </i>
 
         <h2> Funciones sin parámetros ni retorno </h2>
         <p>
@@ -997,8 +1004,8 @@
             En resumen, un método es una sección de código que se puede reutilizar en diferentes partes de un programa para realizar una tarea específica. Se define mediante una función que puede tomar parámetros y devolver un valor de retorno.
         </p>
 
-        <h3> Ejercicios:</h3>
-        <ol>
+        <ol class="exercises">
+            <h3> Ejercicios:</h3>
             <li>
                 Método "Cocinar pasta": Crea un método que tome como entrada el tipo de pasta, la cantidad de agua y sal, y el tiempo de cocción. El método debe imprimir los pasos necesarios para cocinar la pasta correctamente.
             </li>
@@ -1067,8 +1074,8 @@
         <p>
             Los objetos en programación orientada a objetos tienen métodos y atributos. Los métodos son como acciones que un objeto puede realizar, mientras que los atributos son características que definen al objeto. Por ejemplo, un objeto de la clase "Perro" puede tener un método llamado "ladrar" y un atributo llamado "raza". Los métodos pueden modificar los atributos del objeto y realizar operaciones más complejas. En cambio, los atributos son valores almacenados en el objeto que describen su estado o características. Los métodos y atributos son importantes para definir comportamientos y propiedades de los objetos en un programa.
         </p>
-        <h3> Ejercicios:</h3>
-        <ol>
+        <ol class="exercises">
+            <h3> Ejercicios:</h3>
             <li>
                 Crea una clase "Persona" con los atributos "nombre", "edad" y "género". Luego, crea varios objetos de esta clase para representar a diferentes personas que conoces.
             </li>
