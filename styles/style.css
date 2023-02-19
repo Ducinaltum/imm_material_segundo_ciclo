@@ -1,14 +1,32 @@
-section {
-    background-color:blueviolet;
-    padding-left: 4em;
-    padding-right: 4em;
-    padding-bottom: 4em;
-    padding-top: 2em;
-    margin: 2em;
-    border-radius: 10px;
+:root {
+    --palette-green: #7DD62E;
+    --palette-purple: #7D3FA6;
+    --palette-turquoise: #04D9D9;
+    --palette-yellow: #F2E529;
+    --palette-pink: #DF618D;
+
+    --section-border-radius: 20px;
 }
+
+body {
+    background-image: url('/images/bg-wires-and-white.png');
+    color:white;
+}
+
+section {
+    background-color:black;
+    color:white;
+    margin: 4em;
+    border-radius: var(--section-border-radius);
+}
+
+.theme {
+    padding: 4em;
+    padding-top: 0em;
+}
+
 .exercises {
-    background-color:crimson;
+    background-color:var(--palette-pink);
     padding-left: 4em;
     padding-right: 4em;
     padding-bottom: 4em;
@@ -17,14 +35,8 @@ section {
     border-radius: 10px;
 }
 
-h1 {
-    background-color: yellowgreen;
-    padding: 2em;
-    border-radius: 5px;
-    text-align: center;
-}
-aside aside {
-    background-color: green;
+.aside-group aside {
+    background-color: var(--palette-green);
     padding: 4px;
     padding-left: 2em;
     padding-right: 2em;
@@ -32,3 +44,43 @@ aside aside {
     border-radius: 30px;
 }
 
+:not(h1,h2,h3,h4,h5,h6) {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 4em;
+    background-color: var(--palette-purple);
+    padding: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top-left-radius: var(--section-border-radius);
+    border-top-right-radius: var(--section-border-radius);
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+}
+
+h2 {
+    font-size: 3em;
+    background-color: var(--palette-yellow);
+    padding: 1em;
+    border-radius: 5px;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+    background-color: var(--palette-turquoise);
+    padding: 1em;
+    border-radius: 5px;
+    -webkit-text-stroke: 1px black;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+code {
+    font-size: 1.1em;
+}
