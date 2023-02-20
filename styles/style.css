@@ -1,21 +1,63 @@
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url("/fonts/OpenDyslexic-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+@font-face {
+    font-family: 'OpenDyslexic-bold-italic';
+    src: url("/fonts/OpenDyslexic-BoldItalic.otf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic-italic';
+    src: url("/fonts/OpenDyslexic-Italic.otf");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic-bold';
+    src: url("/fonts/OpenDyslexic-Bold.otf");
+    font-weight: bold;
+    font-style: normal;
+}
+*/
+
+@font-face {
+    font-family: "dislexic-mono";
+    src: url("/fonts/OpenDyslexicMono-Regular.otf")
+}
+
+@font-face {
+    font-family: 'gamer-station';
+    src: url("/fonts/Gamer\ Station.ttf");
+}
+
 :root {
     --palette-green: #7DD62E;
     --palette-purple: #7D3FA6;
     --palette-turquoise: #04D9D9;
     --palette-yellow: #F2E529;
     --palette-pink: #DF618D;
-
+    --palette-grey: rgb(37, 37, 37);
     --section-border-radius: 20px;
 }
 
+
 body {
-    background-image: url('/images/bg-wires-and-white.png');
-    color:white;
+    font-family: "OpenDyslexic", sans-serif;
+    background-color: black;
+    /*background-image: url('/images/bg-wires-and-white.png');*/
+    color: white;
 }
 
 section {
-    background-color:black;
-    color:white;
+    background-color: var(--palette-grey);
+    color: white;
     margin: 4em;
     border-radius: var(--section-border-radius);
 }
@@ -26,7 +68,7 @@ section {
 }
 
 .exercises {
-    background-color:var(--palette-pink);
+    background-color: var(--palette-pink);
     padding-left: 4em;
     padding-right: 4em;
     padding-bottom: 4em;
@@ -44,7 +86,17 @@ section {
     border-radius: 30px;
 }
 
-:not(h1,h2,h3,h4,h5,h6) {
+:not(h1, h2, h3, h4, h5, h6) {
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'gamer-station';
     font-size: 20px;
 }
 
@@ -82,5 +134,17 @@ h4 {
 }
 
 code {
+    font-family: 'dislexic-mono';
     font-size: 1.1em;
 }
+
+i,
+.italic {
+    font-family: 'OpenDyslexic-italic';
+}
+/*
+b,
+.bold {
+    font-family: 'OpenDyslexic-bold';
+}
+*/
