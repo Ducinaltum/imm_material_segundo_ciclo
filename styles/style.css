@@ -82,6 +82,16 @@ pre {
     overflow: auto;
 }
 
+.screen-print-container
+{
+    text-align: center;
+}
+
+.screen-print
+{
+    max-width: 90%;
+}
+
 
 /*
 
