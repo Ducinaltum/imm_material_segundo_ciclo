@@ -99,7 +99,7 @@ pre {
 
 */
 
-@media (max-width: 1250px) {
+@media (max-width: 768px) {
     h1 {
         font-size: 2em;
         padding: 10px;
@@ -156,7 +156,7 @@ pre {
     li {list-style-position: inside;}
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 769px) {
     h1 {
         font-size: 4em;
         padding: 2em;
@@ -188,7 +188,7 @@ pre {
     }
 
     .theme {
-        padding: 4px;
+        padding: 2em;
         padding-top: 0px;
     }
     
