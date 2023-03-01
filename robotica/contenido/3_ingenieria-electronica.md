@@ -2,7 +2,7 @@
 
 Un circuito electrónico es una colección de componentes eléctricos conectados entre sí para permitir el flujo de electricidad. Los componentes de un circuito electrónico incluyen resistencias, condensadores, diodos, transistores, circuitos integrados y otros dispositivos electrónicos. Cuando estos componentes se conectan correctamente, pueden formar un circuito que realice una tarea específica, como encender una luz, producir sonido o ejecutar una tarea más compleja.
 
-# Tipos de circuitos
+## Tipos de circuitos
 
 ## Circuito abierto
 
@@ -16,7 +16,8 @@ Un circuito cerrado es un circuito eléctrico que está completo, lo que signifi
 
 Un cortocircuito es una conexión eléctrica no deseada y directa entre dos partes de un circuito que normalmente no están conectadas. En un cortocircuito, la corriente fluye a través de un camino de baja resistencia en lugar de pasar a través de los componentes del circuito. Esto puede provocar un aumento en la corriente eléctrica, lo que puede dañar los componentes y puede provocar un sobrecalentamiento peligroso. Un ejemplo común de cortocircuito es cuando dos conductores se tocan accidentalmente en un circuito eléctrico.
 
-# Tipos de corriente
+## Tipos de corriente
+
 Existen dos tipos principales de corriente eléctrica: la corriente continua (CC o DC, por sus siglas en inglés) y la corriente alterna (CA o AC, por sus siglas en inglés).
 
 La corriente continua es una corriente eléctrica que fluye siempre en la misma dirección. Se utiliza comúnmente en baterías, pilas y fuentes de alimentación para dispositivos electrónicos. La corriente continua se representa mediante una línea recta en un gráfico de corriente versus tiempo.
@@ -26,6 +27,7 @@ La corriente alterna es una corriente eléctrica que cambia de dirección y magn
 Ambos tipos de corriente tienen aplicaciones específicas en la electrónica y la electricidad. Por ejemplo, la corriente continua se utiliza en dispositivos electrónicos como ordenadores, teléfonos móviles y lámparas de LED. Por otro lado, la corriente alterna se utiliza en electrodomésticos como televisores, lavadoras y refrigeradores. Es importante entender la diferencia entre estos dos tipos de corriente y sus características para poder diseñar y utilizar adecuadamente circuitos eléctricos y electrónicos.
 
 ## Magnitudes físicas en electricidad
+
 ### Voltaje
 
 El voltaje, también conocido como diferencia de potencial eléctrico, es una medida de la fuerza con la que los electrones se mueven a través de un circuito. Se mide en voltios (V) y se representa por la letra V. El voltaje se utiliza para proporcionar energía a los componentes electrónicos y para controlar su funcionamiento.
@@ -42,7 +44,6 @@ La resistencia es una medida de la oposición que ofrece un material al flujo de
 
 La potencia es la cantidad de energía que se transfiere por unidad de tiempo. En electrónica, se mide en vatios (W) y se representa por la letra P. La potencia se utiliza para determinar la cantidad de energía que se está utilizando en un circuito y para seleccionar componentes electrónicos que puedan manejar esa cantidad de energía.
 
-
 ## Ley de Ohm
 
 La ley de Ohm establece una relación matemática entre el voltaje (V), la corriente eléctrica (I) y la resistencia (R) en un circuito eléctrico. Esta ley establece que la corriente que fluye a través de un circuito es proporcional al voltaje y inversamente proporcional a la resistencia.
@@ -53,7 +54,8 @@ En un circuito cerrado el voltaje, corriente eléctrica y la resistencia deben t
 
 Según el efecto Joule la corriente que circula por un conductor genera calor, si la corriente adquiere valores excesivos, la cantidad de calor puede ser tal que puede fundir casi instantáneamente los conductores del circuito, siendo este el fenómeno más apreciable en un cortocircuito.
 
-# Circuitos en serie y paralelo
+## Circuitos en serie y paralelo
+
 ## Circuito en serie
 
 En un circuito serie, los componentes están conectados en línea uno tras otro, de modo que la corriente eléctrica fluye a través de cada componente en secuencia. Si se corta el circuito en cualquier punto, la corriente eléctrica se detendrá y los componentes dejarán de funcionar.
@@ -64,16 +66,18 @@ Una batería eléctrica suele estar formada por varias pilas eléctricas conecta
 
 En un circuito paralelo, los componentes están conectados en ramas separadas, de modo que la corriente eléctrica se divide y fluye a través de varios componentes al mismo tiempo. Si se corta un componente, la corriente seguirá fluyendo por las otras ramas y los demás componentes seguirán funcionando.
 
-# Señales analógicas vs señales digitales
+## Señales analógicas vs señales digitales
 
 ## Análogos
+
 Las señales analógicas son señales continuas y variables en el tiempo que pueden tomar cualquier valor en un rango determinado. Un ejemplo común de una señal analógica es el sonido, que es una onda de presión que varía continuamente en el tiempo. Las señales analógicas se representan como señales eléctricas continuas que varían en voltaje o corriente, y se pueden transmitir y procesar directamente en su forma original.
 
 ## Digitales
 
 Las señales digitales, por otro lado, son señales discretas y no continuas que toman valores discretos en un conjunto finito de posibles valores. Las señales digitales se representan como una serie de ceros y unos (bits), y se pueden transmitir y procesar mediante el uso de dispositivos electrónicos que operan en el dominio digital, como computadoras y otros dispositivos digitales.
 
-##### Uso del multímetro
+### Uso del multímetro
+
 Un multímetro es una herramienta muy útil en electrónica que nos permite medir diferentes parámetros eléctricos, como el voltaje, la corriente y la resistencia en un circuito. Además, también nos permite probar la continuidad de un circuito eléctrico, es decir, si existe una conexión eléctrica entre dos puntos.
 
 Para usar un multímetro, es necesario seleccionar el tipo de medición que se desea realizar y ajustar el rango de medición en el dispositivo. Luego, se colocan las puntas de prueba del multímetro en los puntos donde se desea realizar la medición. Por ejemplo, si se desea medir el voltaje de una batería, se conecta la punta de prueba roja al polo positivo de la batería y la punta de prueba negra al polo negativo, luego, el multímetro nos indicará, en su pantalla, la carga de voltaje que tiene la pila.
@@ -82,9 +86,10 @@ Por otro lado, para probar la continuidad de un circuito eléctrico, se utiliza 
 
 Es importante seguir las instrucciones de seguridad al utilizar un multímetro, como asegurarse de que el dispositivo esté apagado antes de realizar cualquier conexión, y evitar tocar los puntos de medición mientras se está aplicando un voltaje. Con un uso adecuado y responsable, un multímetro puede ser una herramienta muy útil para cualquier persona interesada en la electrónica y la electricidad.
 
-# Elementos electrónicos básicos
+## Elementos electrónicos básicos
 
 ## Fuentes de energía
+
 Estas son componentes que proporcionan la energía eléctrica necesaria para el funcionamiento de los componentes del circuito. Algunos ejemplos de fuentes de energía incluyen baterías, fuentes de alimentación y paneles solares.
 
 Una batería es un dispositivo que proporciona energía eléctrica para hacer funcionar otros componentes electrónicos. Es comúnmente usada en dispositivos portátiles como linternas, relojes, juguetes, entre otros. Las baterías pueden venir en diferentes tamaños y formas.
@@ -106,6 +111,7 @@ Los conectores pueden ser de diferentes tipos y formas, y su elección depender�
 * Conectores de terminal: estos conectores se utilizan para conectar un cable o un componente a una fuente de alimentación. Algunos ejemplos incluyen los conectores de anillo, los conectores de pala y los conectores de horquilla.
 
 ## Componentes pasivos
+
 Estos son componentes que no requieren de una fuente de energía externa para funcionar. Entre ellos se encuentran las resistencias, capacitores, inductores y diodos. Los componentes pasivos se utilizan para controlar la corriente eléctrica en un circuito.
 
 Algunos ejemplos de componentes pasivos incluyen:
@@ -121,6 +127,7 @@ Algunos ejemplos de componentes pasivos incluyen:
 * Dispositivos de entrada: Son aquellos componentes que permiten la entrada de información al circuito electrónico o robot, y pueden ser activados o desactivados por el usuario. Ejemplos de dispositivos de entrada son los switches, interruptores, botones y pulsadores.
 
 ## Componentes activos
+
 Los componentes activos son elementos electrónicos que tienen la capacidad de amplificar o controlar una señal eléctrica, es decir, pueden aumentar la potencia de una señal o cambiar sus características. Estos componentes son esenciales en la construcción de circuitos electrónicos y robots y se utilizan en combinación con componentes pasivos para crear circuitos complejos.
 
 Algunos ejemplos de componentes activos incluyen:
@@ -133,11 +140,13 @@ Algunos ejemplos de componentes activos incluyen:
 
 * Tiristores: los tiristores son dispositivos semiconductores que se utilizan para controlar la corriente en un circuito. Pueden ser utilizados como interruptores o como dispositivos de control de potencia.
 
-# Sistemas intervinientes en los robots
+## Sistemas intervinientes en los robots
 
 ## Sistema de sensores
+
 Estos son componentes que detectan algún tipo de estímulo y lo convierten en una señal eléctrica.
 Son un conjunto de sensores que permiten que los robots puedan recibir y percibir información del ambiente en el que se encuentran. Los sensores son dispositivos que miden magnitudes físicas, como aceleración, distancia, luminosidad, sonido, temperatura, etc. La función de estos sistemas es similar a la de los sentidos en los seres vivos, en los cuales los sensores son la piel (sentido del tacto), los ojos (sentido de la vista), la nariz (sentido del olfato), la lengua (sentido del gusto) y el oído (sentido auditivo). Se puede apreciar la diferencia entre órganos (sensores) y sentidos (sistemas sensoriales).
+
 * Inductivos
 * Capacitivos
 * Fotoeléctricos laser
@@ -152,6 +161,7 @@ Son un conjunto de sensores que permiten que los robots puedan recibir y percibi
 
 Estos son componentes que transforman una señal eléctrica en una acción física.
 Están conformados por mecanismos que son capaces de realizar trabajo físico. Se les llama también actuadores porque estimulan a los efectores para realizar acciones. Cuando trabajan en conjunto, pueden clasificarse como un agente encargado de ejecutar movimiento, aunque siempre está sujeto a una unidad de control que le da sentido y lo complementa.
+
 * Motor de CC
 * Servomotor
 * Pistón
@@ -159,7 +169,8 @@ Están conformados por mecanismos que son capaces de realizar trabajo físico. S
 * Emisor de calor
 * Emisor de sonido
 
-# Sistema de procesamiento
+## Sistema de procesamiento
+
 Todas las señales provenientes de los sensores deben de ser procesadas para que sean útiles. El sistema sensorial simplemente reporta la magnitud de mediciones, pero no hace nada con los datos obtenidos. Los actuadores, por otro lado, no tienen la capacidad de controlarse solos, o coordinarse entre ellos para realizar una actividad: ellos están ahí esperando a recibir indicaciones para ejecutarlas a ciegas, sin saber por qué. Ambos sistemas necesitan, entonces, un líder de orquesta que coordine todas las acciones a realizar y que se comunique con ellos.
 
 Este trabajo lo desempeña el microcontrolador, que podría considerarse el cerebro del robot.
@@ -171,7 +182,9 @@ En robots complejos, pueden existir varios microprocesadores controlando diferen
 No hay que confundir al “microprocesador” con el “microcontrolador”, son cosas diferentes. Un microprocesador es un dispositivo electrónico digital encargado exclusivamente del procesamiento y ejecución de instrucciones; necesita un conjunto de dispositivos periféricos para funcionar (memoria RAM, memoria ROM, canales de comunicación, etc). El microcontrolador es una estructura compuesta por un microprocesador, memorias (para almacenar instrucciones y datos), canales de entrada y salida (ES), y todos los periféricos necesarios para ser funcional por sí mismo.
 
 ## El microcontrolador
+
 ### El controlador lógico programable
+
 Los controladores lógicos programables son muy útiles porque permiten automatizar procesos y sistemas de manera eficiente. Esto significa que las máquinas y los sistemas pueden funcionar de manera autónoma sin la necesidad de intervención humana constante.
 
 Los controladores lógicos programables tienen entradas y salidas que se utilizan para interactuar con los componentes electrónicos de un sistema o una máquina. Por ejemplo, si quieres encender una luz cuando se detecta movimiento, puedes conectar un sensor de movimiento a una entrada del controlador lógico programable y un interruptor a una salida. Luego, puedes programar el controlador para que encienda la luz cuando detecte movimiento en el sensor.
