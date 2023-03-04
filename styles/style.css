@@ -106,12 +106,17 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style-position: inside;
+}
 
 /*
 
     ADD STYLE TO TABLES
 
 */
+
+
 
 @media (max-width: 768px) {
     h1 {
@@ -166,10 +171,6 @@ a {
 
     code {
         font-size: 14;
-    }
-
-    li {
-        list-style-position: inside;
     }
 }
 

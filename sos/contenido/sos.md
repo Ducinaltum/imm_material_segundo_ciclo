@@ -63,7 +63,7 @@ Son los sistemas operativos que se utilizan en las computadoras de escritorios y
 Los más utilizados son: Windows, Mac Os, Linux y Google Chrome OS.
 
 Sistemas operativos de red
-Son tipos de SO que permiten la interconexión de ordenadores para poder acceder a los servicios y recursos, hardware y software, creando redes de computadoras. Al igual que un equipo no puede trabajar sin un sistema operativo, una red de equipos no puede funcionar sin un sistema operativo de red. Consiste en un software que posibilita la comunicación de un sistema informático con otros equipos en el ámbito de una red.
+Son tipos de SO que permiten la interconexión de ordenadores para poder acceder a los servicios y recursos, hardware y software, creando redes de computadoras. Al igual que un equipo no puede trabajar sin un sistema operativo, una red de equipos no puede funcionar sin un sistema operativo de red. Consiste en un software que posibilita la comunicación de un sistema informático con otros equipos en el ámbito de una red.
  Los más utilizados son: Linux y Windows Server
 
  Sistemas operativos para otro tipo de dispositivos
