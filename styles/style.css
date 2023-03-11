@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'OpenDyslexic';
-    src: url("/fonts/OpenDyslexic-Regular.otf") format("opentype");
+    src: url("../fonts/OpenDyslexic-Regular.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "dislexic-mono";
-    src: url("/fonts/OpenDyslexicMono-Regular.otf") format("opentype");
+    src: url("../fonts/OpenDyslexicMono-Regular.otf") format("opentype");
 }
 
 @font-face {
     font-family: 'gamer-station';
-    src: url("/fonts/Gamer\ Station.ttf");
+    src: url("../fonts/Gamer\ Station.ttf");
 }
 
 :root {
