@@ -1,25 +1,25 @@
 @font-face {
     font-family: 'OpenDyslexic';
-    src: url("/fonts/OpenDyslexic-Regular.otf");
+    src: url("../fonts/OpenDyslexic-Regular.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "dislexic-mono";
-    src: url("/fonts/OpenDyslexicMono-Regular.otf")
+    src: url("../fonts/OpenDyslexicMono-Regular.otf") format("opentype");
 }
 
 @font-face {
     font-family: 'gamer-station';
-    src: url("/fonts/Gamer\ Station.ttf");
+    src: url("../fonts/Gamer\ Station.ttf");
 }
 
 :root {
     --palette-green: #7DD62E;
     --palette-purple: #7D3FA6;
     --palette-blue: #268BD2;
-    --palette-yellow: #F2E529;
+    --palette-yellow: #eee34e;
     --palette-pink: #DF618D;
     --palette-grey: #3C3C3C;
     --palette-white: #D4D4D4;
@@ -94,8 +94,50 @@ pre {
     overflow: auto;
 }
 
-.screen-print-container {
+.centered-content {
     text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    /*width: 90%;*/
+    border-collapse: collapse;
+    border-radius: 1em;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 1px white; /* this draws the table border  */ 
+}
+
+/*table,*/
+th,
+td {
+    border: 1px solid;
+}
+
+tbody:last-child {
+    text-align: left;
+}
+
+th,
+td {
+    padding: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+/*
+Zebra Stripes
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+*/
+
+/*tr:hover {background-color: #D6EEEE;}*/
+
+th:first-child {
+    text-align: right;
+}
+td:first-child {
+    text-align: right;
 }
 
 .screen-print {
@@ -110,11 +152,9 @@ li {
     list-style-position: inside;
 }
 
-/*
-
-    ADD STYLE TO TABLES
-
-*/
+table {
+    align-self: center;
+}
 
 
 
@@ -186,19 +226,23 @@ li {
     h2 {
         font-size: 3em;
         padding: 1em;
+        margin-top: 2em;
+        box-shadow: 0px 5px 5px #c2b9409f;
     }
 
     h3 {
         font-size: 2em;
         padding: 1em;
+        margin-top: 2em;
     }
 
     h4 {
         font-size: 2em;
+
     }
 
     section {
-        margin: 40px;
+        margin: 8em;
     }
 
     :not(h1, h2, h3, h4, h5, h6) {
@@ -206,15 +250,13 @@ li {
     }
 
     .theme {
-        padding: 2em;
+        padding: 8em;
         padding-top: 0px;
     }
 
     .exercises {
         background-color: var(--palette-pink);
-        padding-left: 4px;
-        padding-right: 4px;
-        padding-bottom: 4px;
+        padding: 4em;
         padding-top: 4px;
         margin: 4px;
         border-radius: 10px;
