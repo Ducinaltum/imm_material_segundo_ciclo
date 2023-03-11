@@ -11,8 +11,8 @@
 }
 
 @font-face {
-    font-family: 'gamer-station';
-    src: url("../fonts/Gamer\ Station.ttf");
+    font-family: 'LuckiestGuy';
+    src: url("../fonts/LuckiestGuy-Regular.ttf") format("opentype");;
 }
 
 :root {
@@ -49,13 +49,23 @@ section {
     border-radius: 30px;
 }
 
+.wrapped-by-text-image {
+    float: left;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'gamer-station';
+    font-family: 'LuckiestGuy';
     text-align: center;
 }
 
@@ -275,4 +285,15 @@ table {
         font-family: 'dislexic-mono';
         font-size: 1em;
     }
+}
+
+span.reserved{
+    color: var(--palette-blue);
+}
+
+span.identifier{
+    color: var(--palette-white);
+}
+span.literal{
+    color: var(--palette-white);
 }

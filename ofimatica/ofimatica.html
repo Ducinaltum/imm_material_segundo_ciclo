@@ -36,22 +36,22 @@
                     <th>Google Workspace</th>
                 </tr>
                 <tr>
-                    <th>Procesador de textos</th>
-                    <th>Word</th>
-                    <th>Writer</th>
-                    <th>Docs</th>
+                    <td>Procesador de textos</td>
+                    <td>Word</td>
+                    <td>Writer</td>
+                    <td>Docs</td>
                 </tr>
                 <tr>
-                    <th>Hojas de cálculo</th>
-                    <th>Excel</th>
-                    <th>Calc</th>
-                    <th>Sheets</th>
+                    <td>Hojas de cálculo</td>
+                    <td>Excel</td>
+                    <td>Calc</td>
+                    <td>Sheets</td>
                 </tr>
                 <tr>
-                    <th>Presentación de diapositivas</th>
-                    <th>PowerPoint</th>
-                    <th>Impress</th>
-                    <th>Slides</th>
+                    <td>Presentación de diapositivas</td>
+                    <td>PowerPoint</td>
+                    <td>Impress</td>
+                    <td>Slides</td>
                 </tr>
             </table>
 
@@ -145,10 +145,12 @@
                 </li>
                 <li>
                     <b>Negrita:</b>
-                    <p>
-                        Engrosa y oscurece las letras. Es un efecto similar a cuando uno vuelve a remarcar una palabra ya escrita.
-                    </p>
-                    <img src="images/wordnodes/negrita.png" alt="">
+                    <div>
+                        <img class="wrapped-by-text-image" src="images/wordnodes/negrita.png" alt="">
+                        <p>
+                            Engrosa y oscurece las letras. Es un efecto similar a cuando uno vuelve a remarcar una palabra ya escrita.
+                        </p>
+                    </div>
                 </li>
                 <li>
                     <b>Cursiva:</b>
@@ -195,27 +197,37 @@
             <ul>
                 <li>
                     <b>Alineación</b>
-                    <img src="images/wordnodes/boton-alineacion.png" alt="">
-                    <img src="images/wordnodes/alineacion.png" alt="">
-                    <p>
-                        La alineación es una herramienta que se utiliza para dar formato a tus párrafos. Puedes elegir entre cuatro opciones de alineación: izquierda, derecha, centrado y justificado. La opción justificado alinea el texto tanto en el lado izquierdo como en el derecho, creando un margen recto en ambos lados del texto. Esto hace que el texto se vea muy limpio y ordenado.
-                    </p>
+                    <!--<img src="images/wordnodes/boton-alineacion.png" alt="">-->
+                    <div>
+                        <img class="wrapped-by-text-image" src="images/wordnodes/alineacion.png" alt="">
+                        <p>
+                            La alineación es una herramienta que se utiliza para dar formato a tus párrafos. Puedes elegir entre cuatro opciones de alineación: izquierda, derecha, centrado y justificado. La opción justificado alinea el texto tanto en el lado izquierdo como en el derecho, creando un margen recto en ambos lados del texto. Esto hace que el texto se vea muy limpio y ordenado.
+                        </p>
+                    </div>
                 </li>
                 <li>
                     <b>Aumentar y disminuir sangría</b>
-                    <img src="images/wordnodes/boton-aumentar-sangria.png" alt="">
-                    <img src="images/wordnodes/boton-disminuir-sangria.png" alt="">
-                    <p>
-                        Si deseas agregar sangría a un elemento, haz clic en el botón de "aumentar sangría". Si querés eliminar la sangría, hacé clic en el botón "disminuir sangría".
-                    </p>
+                    <div>
+                        <div class="wrapped-by-text-image">
+                            <img src="images/wordnodes/boton-aumentar-sangria.png" alt="">
+                            <img src="images/wordnodes/boton-disminuir-sangria.png" alt="">
+                        </div>
+                        <p>
+                            Si deseas agregar sangría a un elemento, haz clic en el botón de "aumentar sangría". Si querés eliminar la sangría, hacé clic en el botón "disminuir sangría".
+                        </p>
+                    </div>
                 </li>
                 <li>
                     <b>Listas</b>
-                    <img src="images/wordnodes/boton-lista-desordenada.png" alt="">
-                    <img src="images/wordnodes/boton-listaordenada.png" alt="">
-                    <p>
-                        Las listas son una excelente manera de organizar la información en tu documento. Word te ofrece dos tipos de listas: numeradas (o listas ordenadas) y con viñetas (o listas desordenadas). Las listas numeradas son útiles cuando necesitas presentar información en un orden específico, mientras que las listas con viñetas se utilizan para agrupar información relacionada.
-                    </p>
+                    <div>
+                        <div class="wrapped-by-text-image">
+                            <img src="images/wordnodes/boton-lista-desordenada.png" alt="">
+                            <img src="images/wordnodes/boton-listaordenada.png" alt="">
+                        </div>
+                        <p>
+                            Las listas son una excelente manera de organizar la información en tu documento. Word te ofrece dos tipos de listas: numeradas (o listas ordenadas) y con viñetas (o listas desordenadas). Las listas numeradas son útiles cuando necesitas presentar información en un orden específico, mientras que las listas con viñetas se utilizan para agrupar información relacionada.
+                        </p>
+                    </div>
                 </li>
             </ul>
 
@@ -224,8 +236,8 @@
             </p>
 
             <h4>Estilos</h4>
-            <img src="images/wordnodes/boton-estilos.png" alt="">
-            <img src="images/wordnodes/estilos.png" alt="">
+
+            <div class="wrapped-by-text-image"><img src="images/wordnodes/boton-estilos.png" alt=""></div>
             <p>
                 Los estilos son una herramienta poderosa que te permiten dar formato a tus documentos de manera rápida y consistente. Con los estilos, puedes definir el aspecto y la sensación de tus títulos, subtítulos, texto principal, entre otros elementos de tu documento, de una sola vez.
             </p>
@@ -235,6 +247,7 @@
             <p>
                 Los estilos no solo ahorran tiempo y esfuerzo, sino que también ayudan a mantener la consistencia en tus documentos. Si deseas cambiar el formato de un elemento, puedes simplemente actualizar el estilo y todas las instancias del elemento se actualizarán automáticamente.
             </p>
+            <img src="images/wordnodes/estilos.png" alt="">
             <p>
                 Además, puedes modificar los estilos para que se ajusten a tus necesidades específicas. Por ejemplo, puedes cambiar el tamaño de fuente o el color para personalizar los estilos a tu gusto.
             </p>
@@ -243,8 +256,8 @@
             </p>
 
             <h4>Diseñador</h4>
-            <img src="images/wordnodes/boton-diseniador.png" alt="">
-            <img src="images/wordnodes/barra-diseniador.png" alt="">
+            <!-- <img src="images/wordnodes/boton-diseniador.png" alt=""> -->
+            <div class="wrapped-by-text-image"><img src="images/wordnodes/barra-diseniador.png" alt=""></div>
             <p>
                 En Microsoft Word, el Diseñador es una herramienta que ayuda a mejorar el diseño visual de tus documentos. El Diseñador se basa en algoritmos de inteligencia artificial para analizar el contenido de tu documento y ofrecer sugerencias para mejorar su apariencia.
             </p>
@@ -267,21 +280,25 @@
                 Advertencia: Si bien colocar una tabla, una imágen o un dibujo es relativamente sencillo, el alcanzar la colocación ideal es mucho más complejo de lo que podría parecer en una primer instancia.
             </i>
 
-            <h4>Tablas</h4>
-            <img src="images/wordnodes/boton-tabla.png" alt="">
-            <img src="images/wordnodes/insertar-tabla.png" alt="">
-            <p>
-                Si necesitas organizar la información en tu documento, las tablas son una excelente manera de hacerlo. Puedes insertar una tabla vacía o elegir una plantilla de tabla predefinida y personalizarla según tus necesidades.
-            </p>
-            <h4>Imagenes</h4>
-            <img src="images/wordnodes/boton-imagen.png" alt="">
-            <img src="images/wordnodes/insertar-imagen.png" alt="">
-            <p>
-                Puedes insertar imágenes desde tu computadora o desde la web. Word ofrece varias opciones de ajuste de imagen, como cambiar su tamaño, rotarla, recortarla y agregar efectos.
-            </p>
+            <div>
+                <h4>Tablas</h4>
+                <!--<img src="images/wordnodes/boton-tabla.png" alt="">-->
+                <div class="wrapped-by-text-image"><img src="images/wordnodes/insertar-tabla.png" alt=""></div>
+                <p>
+                    Si necesitas organizar la información en tu documento, las tablas son una excelente manera de hacerlo. Puedes insertar una tabla vacía o elegir una plantilla de tabla predefinida y personalizarla según tus necesidades.
+                </p>
+            </div>
+            <div>
+                <h4>Imagenes</h4>
+                <!--<img src="images/wordnodes/boton-imagen.png" alt="">-->
+                <div class="wrapped-by-text-image"><img src="images/wordnodes/insertar-imagen.png" alt=""></div>
+                <p>
+                    Puedes insertar imágenes desde tu computadora o desde la web. Word ofrece varias opciones de ajuste de imagen, como cambiar su tamaño, rotarla, recortarla y agregar efectos.
+                </p>
+            </div>
 
             <h4>Dibujos</h4>
-            <img src="images/wordnodes/boton-dibujo.png" alt="">
+            <div class="wrapped-by-text-image"><img src="images/wordnodes/boton-dibujo.png" alt=""></div>
             <p>
                 Puedes agregar formas prediseñadas, como círculos, rectángulos y flechas, para resaltar información en tu documento. Puedes cambiar el color de fondo, el borde y la sombra de las formas según tu gusto.
             </p>
