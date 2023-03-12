@@ -51,8 +51,10 @@ section {
 
 .wrapped-by-text-image {
     float: left;
+    margin-top: 10px;
     margin-left: 1em;
     margin-right: 1em;
+    max-width: 90%;
 }
 
 img {
@@ -110,11 +112,14 @@ pre {
 
 table {
     margin: 0 auto;
-    /*width: 90%;*/
+    max-width: 100%;
     border-collapse: collapse;
     border-radius: 1em;
     border-style: hidden; /* hide standard table (collapsed) border */
     box-shadow: 0 0 0 1px white; /* this draws the table border  */ 
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 /*table,*/
@@ -221,6 +226,9 @@ table {
 
     code {
         font-size: 14;
+    }
+    table {
+        font-size: 10;
     }
 }
 
