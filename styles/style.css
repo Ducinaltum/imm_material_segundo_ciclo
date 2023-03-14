@@ -171,6 +171,41 @@ table {
     align-self: center;
 }
 
+.landing-page-buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    grid-auto-rows: 15em;
+    grid-auto-columns: 20em;
+}
+.theme-button{
+    /*
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: white;
+    */
+    font-family: 'LuckiestGuy';
+    font-size: 2em;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+
+    text-align: center;
+
+    border-radius: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 
 @media (max-width: 768px) {
