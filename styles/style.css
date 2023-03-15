@@ -51,9 +51,9 @@ section {
 
 .wrapped-by-text-image {
     float: left;
-    margin-top: 10px;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
     max-width: 90%;
 }
 
@@ -69,6 +69,7 @@ h5,
 h6 {
     font-family: 'LuckiestGuy';
     text-align: center;
+    clear: both;
 }
 
 header>h1 {
@@ -178,17 +179,9 @@ table {
     grid-auto-rows: 15em;
     grid-auto-columns: 20em;
 }
-.theme-button{
-    /*
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
 
-    text-decoration: none;
-    color: white;
-    */
+.theme-button{
     font-family: 'LuckiestGuy';
-    font-size: 2em;
     background-color: #EEEEEE;
     color: #333333;
     padding: 2px 6px 2px 6px;
@@ -205,8 +198,9 @@ table {
     align-items: center;
 }
 
-
-
+.theme-button>p{
+    font-size: 4em;
+}
 
 @media (max-width: 768px) {
     h1 {
