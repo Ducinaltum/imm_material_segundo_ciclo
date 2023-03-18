@@ -51,7 +51,7 @@ section {
 
 .wrapped-by-text-image {
     float: left;
-    margin-top: 1em;
+    /*margin-top: 1em;*/
     margin-left: 4em;
     margin-right: 4em;
     max-width: 90%;
@@ -71,6 +71,7 @@ h6 {
     text-align: center;
     clear: both;
 }
+
 
 header>h1 {
     border-top-left-radius: 0;
@@ -115,9 +116,9 @@ table {
     margin: 0 auto;
     max-width: 100%;
     border-collapse: collapse;
-    border-radius: 1em;
+    /*border-radius: 1em;
     border-style: hidden; /* hide standard table (collapsed) border */
-    box-shadow: 0 0 0 1px white; /* this draws the table border  */ 
+    /*box-shadow: 0 0 0 1px white; /* this draws the table border  */ 
     display: block;
     overflow-x: auto;
     white-space: nowrap;
@@ -166,6 +167,7 @@ a {
 
 li {
     list-style-position: inside;
+    clear: both;
 }
 
 table {
