@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="../styles/style.css">
     <title>Programación</title>
 </head>
-
+<!--
+    TODO
+        revisar color para sintaxis de comapradores
+-->
 <body>
     <header>
         <h1> Programacion </h1>
@@ -102,18 +105,18 @@
                 Ejemplo de un algoritmo, escrito en lenguaje natural sobre como vestirse:
             </h3>
             <pre><code>
-algoritmo Vestirse
+<span class="reserved">algoritmo</span> <span class="identifier">Vestirse</span>
 {
-    1. Buscar la ropa que deseas usar.
-    2. Sacar la ropa del armario o cajón.
-    3. Comprobar que la ropa está limpia y en buen estado.
-    4. Si no está en buen estado, volver al paso 1
-    5. Si está en buen estado, ponerte la ropa interior.
-    6. Ponerte la ropa exterior (pantalones, camisa, etc.).
-    7. Ponerse los calcetines y/o medias.
-    8. Ponerse los zapatos.
-    9. Revisar si estás contento con tu elección de ropa.
-    10. Si no estás satisfecho, volver al paso 1.
+    1. <span class="string-literal">Buscar la ropa que deseas usar.</span>
+    2. <span class="string-literal">Sacar la ropa del armario o cajón.</span>
+    3. <span class="string-literal">Comprobar que la ropa está limpia y en buen estado.</span>
+    4. <span class="string-literal">Si no está en buen estado, volver al paso 1</span>
+    5. <span class="string-literal">Si está en buen estado, ponerte la ropa interior.</span>
+    6. <span class="string-literal">Ponerte la ropa exterior (pantalones, camisa, etc.).</span>
+    7. <span class="string-literal">Ponerse los calcetines y/o medias.</span>
+    8. <span class="string-literal">Ponerse los zapatos.</span>
+    9. <span class="string-literal">Revisar si estás contento con tu elección de ropa.</span>
+    10. <span class="string-literal">Si no estás satisfecho, volver al paso 1.</span>
 }
         </pre> </code>
 
@@ -290,7 +293,7 @@ variable &lt;tipo&gt; entradaDeUsuario = Leer()
             "edad" de tipo entero, se puede asignar un valor de la siguiente forma:
         </p>
         <pre><code>
-variable entero edad = 25
+<span class="reserved">variable entero</span>  <span class="identifier">edad</span> = <span class="literal">25</span>
         </code></pre>
 
         <p>
@@ -298,7 +301,7 @@ variable entero edad = 25
         </p>
 
         <pre><code>
-entero edad = 25
+<span class="reserved">entero</span>  <span class="identifier">edad</span> = <span class="literal">25</span>
         </code></pre>
         <p>
             En ambos casos, se declara una variable llamada "edad" de tipo entero y le asigna el valor de 25.
@@ -308,7 +311,7 @@ entero edad = 25
         </p>
 
         <pre><code>
-variable* &lt;tipo&gt; &lt;nombre&gt; = &lt;valor&gt;
+<span class="reserved">variable* &lt;tipo&gt;</span> <span class="identifier">&lt;nombre&gt;</span> = <span class="literal">&lt;valor&gt;</span>
         </code></pre>
         <i>
             *opcional
@@ -348,14 +351,14 @@ variable* &lt;tipo&gt; &lt;nombre&gt; = &lt;valor&gt;
         </p>
         <pre><code>
 <!--<span class="reserved">entero</span> <span class="identifier">ancho</span> = <span class="literal">10</span>-->
-entero ancho = 10
-//se declara una variable llamada ancho que vale 10
-entero largo = 15
-//luego, se declara una variable llamadalargo vale 15
-entero perimetro = ancho + ancho + largo + largo
-//perimetro es una variable vale 50 (10 + 10 + 15 + 15)
-entero area = ancho * largo
-//area es una variable vale 150 (10 * 15)
+<span class="reserved">entero</span> <span class="identifier">ancho</span> = <span class="literal">10</span>
+<span class="comment">//se declara una variable llamada ancho que vale 10</span>
+<span class="reserved">entero</span> <span class="identifier">largo</span> = <span class="literal">15</span>
+<span class="comment">//luego, se declara una variable llamada largo vale 15</span>
+<span class="reserved">entero</span> <span class="identifier">perimetro</span> = <span class="identifier">ancho</span> + <span class="identifier">ancho</span> + <span class="identifier">largo</span> + <span class="identifier">largo</span>
+<span class="comment">//perimetro es una variable vale 50 (10 + 10 + 15 + 15)</span>
+<span class="reserved">entero</span> <span class="identifier">area</span> = <span class="identifier">ancho</span> * <span class="identifier">largo</span>
+<span class="comment">//area es una variable vale 150 (10 * 15)</span>
         </code></pre>
         <p>
             Además de las operaciones aritméticas básicas, existen otras operaciones que se pueden realizar sobre
@@ -364,16 +367,16 @@ entero area = ancho * largo
             los programadores manipular y procesar datos de manera efectiva.
         </p>
         <pre><code>
-texto nombre = “Pedro”
-//se declara la variable nombre cuyo contenido es Pedro
-texto nombre = “Juan”
-//ahora nombre ya no contiene Pedro, contiene Juan
-texto apellido = “Perez”
-//se declara la variable apellido cuyo contenido es Perez
-texto nombreCompleto = nombre + “ “ + apellido
-//nombreCompleto equivale a Juan Perez, nótese la presencia de “ “, eso 
-//indica la colocación del carácter ESPACIO, si no se hubiera 
-//utilizado el resultado hubiera sido JuanPerez
+<span class="reserved">texto</span> <span class="identifier">nombre</span> = <span class="string-literal">“Pedro”</span>
+<span class="comment">//se declara la variable nombre cuyo contenido es Pedro</span>
+<span class="reserved">texto</span> <span class="identifier">nombre</span> = <span class="string-literal">“Juan”</span>
+<span class="comment">//ahora nombre ya no contiene Pedro, contiene Juan</span>
+<span class="reserved">texto</span> <span class="identifier">apellido</span> = <span class="string-literal">“Perez”</span>
+<span class="comment">//se declara la variable apellido cuyo contenido es Perez</span>
+<span class="reserved">texto</span> <span class="identifier">nombreCompleto</span> = <span class="identifier">nombre</span> + <span class="string-literal">“ “</span> + <span class="identifier">apellido</span>
+<span class="comment">//nombreCompleto equivale a Juan Perez, nótese la presencia de “ “, eso </span>
+<span class="comment">//indica la colocación del carácter ESPACIO, si no se hubiera </span>
+<span class="comment">//utilizado el resultado hubiera sido JuanPerez</span>
         </code></pre>
 
         <p>
@@ -383,12 +386,12 @@ texto nombreCompleto = nombre + “ “ + apellido
             ambos valores concatenados (uno al lado del otro).
         </p>
         <pre><code>
-entero uno = 1
-//uno vale 1
-texto one = “1”
-//one vale 1 (el carácter uno)
-texto unoMasOne = uno + one
-//unoMasOne vale 11, ya que al entero se lo convierte a texto
+<span class="reserved">entero</span> <span class="identifier">uno</span> = <span class="literal">1</span>
+<span class="comment">//uno vale 1</span>
+<span class="reserved">texto</span> <span class="identifier">one</span> = <span class="string-literal">“1”</span>
+<span class="comment">//one vale 1 (el carácter uno)</span>
+<span class="reserved">texto</span> <span class="identifier">unoMasOne</span> = <span class="identifier">uno</span> + <span class="identifier">one</span>
+<span class="comment">//unoMasOne vale 11, ya que al entero se lo convierte a texto</span>
         </code></pre>
 
         <p>
@@ -397,14 +400,14 @@ texto unoMasOne = uno + one
             eficaces y resolver problemas de programación de manera efectiva.
         </p>
         <pre><code>
-booleano argentinaCampeonMundial = verdadero
-//argentinaCampeonMundial equivale a verdadero 
-//a los booleanos se los puede pensar como una pregunta que se responde por SI o por NO (verdadero/falso)
-//en este caso, la respuesta es SI)
-entero numeroCopas = 3
-// la variable numeroCopas vale 3
-entero sumaBoolConEntero = argentinaCampeonMundial + numeroCopas
-//Esta operación genera un error en el programa, no se puede sumar un booleano con un número
+<span class="reserved">booleano</span> <span class="identifier">argentinaCampeonMundial</span> = <span class="reserved">verdadero</span>
+<span class="comment">//argentinaCampeonMundial equivale a verdadero </span>
+<span class="comment">//a los booleanos se los puede pensar como una pregunta que se responde por SI o por NO (verdadero/falso)</span>
+<span class="comment">//en este caso, la respuesta es SI)</span>
+<span class="reserved">entero</span> <span class="identifier">numeroCopas</span> = <span class="literal">3</span>
+<span class="comment">// la variable numeroCopas vale 3</span>
+<span class="reserved">entero</span> <span class="identifier">sumaBoolConEntero</span> = <span class="identifier">argentinaCampeonMundial</span> + <span class="identifier">numeroCopas</span>
+<span class="comment">//Esta operación genera un error en el programa, no se puede sumar un booleano con un número</span>
         </code></pre>
 
         <h2> Comparaciones de variables </h2>
@@ -418,14 +421,14 @@ entero sumaBoolConEntero = argentinaCampeonMundial + numeroCopas
             queremos evaluar si es mayor que 5, podemos utilizar el operador de comparación mayor que (<b>&gt;</b>):
         </p>
         <pre><code>
-entero edad = 10
-si (edad > 5)
+<span class="reserved">entero</span> <span class="identifier">edad</span> = <span class="literal">10</span>
+<span class="reserved">si</span> (<span class="identifier">edad</span> > <span class="literal">5</span>)
 {
-    imprimir ("La edad es mayor que 5")
+    <span class="function">imprimir</span> (<span class="string-literal">"La edad es mayor que 5"</span>)
 }
-Sino
+<span class="reserved">Sino</span>
 {
-    imprimir ("La edad es menor o igual a 5")
+    <span class="function">imprimir</span> (<span class="string-literal">"La edad es menor o igual a 5"</span>)
 }
         </code></pre>
         <p>

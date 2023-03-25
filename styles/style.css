@@ -85,9 +85,9 @@ h5,
 h6 {
     font-family: 'LuckiestGuy';
     text-align: center;
+    text-transform: capitalize;
     clear: both;
 }
-
 
 header>h1 {
     border-top-left-radius: 0;
@@ -280,4 +280,8 @@ span.comment{
 
 .no-bullet-list{
     list-style:none;
+}
+
+.social-network img {
+    height: 5em;
 }
