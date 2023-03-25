@@ -244,3 +244,15 @@ span.identifier {
 span.literal {
     color: var(--palette-white);
 }
+
+.divided-items-list li{
+    border-style:solid;   
+    border-radius: 10px;
+    overflow: auto;
+    padding: 1em;
+    margin: 1em;
+}
+
+.no-bullet-list{
+    list-style:none;
+}
