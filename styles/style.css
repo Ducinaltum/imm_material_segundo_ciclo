@@ -1,3 +1,7 @@
+@import "portrait.css" screen and (max-width: 768px);
+@import "landscape.css" screen and (min-width: 769px) and (max-width: 1440px);
+@import "desktop.css" screen and (min-width: 1441px);
+
 @font-face {
     font-family: 'OpenDyslexic';
     src: url("../fonts/OpenDyslexic-Regular.otf") format("opentype");
@@ -12,7 +16,8 @@
 
 @font-face {
     font-family: 'LuckiestGuy';
-    src: url("../fonts/LuckiestGuy-Regular.ttf") format("opentype");;
+    src: url("../fonts/LuckiestGuy-Regular.ttf") format("opentype");
+    ;
 }
 
 :root {
@@ -52,11 +57,11 @@ section {
 .wrapped-by-text-image {
     float: left;
     /*margin-top: 1em;*/
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 1em;
+    margin-right: 1em;
     margin-bottom: 0px;
     max-width: 90%;
-    max-height:fit-content;
+    max-height: fit-content;
 }
 
 img {
@@ -120,7 +125,7 @@ table {
     border-collapse: collapse;
     /*border-radius: 1em;
     border-style: hidden; /* hide standard table (collapsed) border */
-    /*box-shadow: 0 0 0 1px white; /* this draws the table border  */ 
+    /*box-shadow: 0 0 0 1px white; /* this draws the table border  */
     /*
     display: block;*/
     overflow-x: auto;
@@ -156,6 +161,7 @@ tr:nth-child(even) {
 th:first-child {
     text-align: right;
 }
+
 td:first-child {
     text-align: right;
 }
@@ -177,7 +183,7 @@ table {
     align-self: center;
 }
 
-.landing-page-buttons{
+.landing-page-buttons {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2em;
@@ -185,7 +191,7 @@ table {
     grid-auto-columns: 20em;
 }
 
-.theme-button{
+.theme-button {
     font-family: 'LuckiestGuy';
     background-color: #EEEEEE;
     color: #333333;
@@ -203,223 +209,38 @@ table {
     align-items: center;
 }
 
-.theme-button>p{
+.theme-button>p {
     font-size: 4em;
 }
 
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2em;
-        padding: 10px;
-        padding-top: 1em;
-        padding-bottom: 1em;
-        -webkit-text-stroke: 1px black;
-    }
-
-    h2 {
-        font-size: 2em;
-        padding: 1em;
-    }
-
-    h3 {
-        font-size: 1.5em;
-        padding: 1em;
-    }
-
-    h4 {
-        font-size: 1em;
-    }
-
-    section {
-        margin: 10px;
-    }
-
-    :not(h1, h2, h3, h4, h5, h6) {
-        font-size: 14;
-    }
-
-    .theme {
-        padding: 1em;
-        padding-top: 0px;
-    }
-
-    .exercises {
-        padding-left: 1em;
-        padding-right: 1em;
-        padding-bottom: 1em;
-        padding-top: 1em;
-        margin: 2em;
-    }
-
-    .aside-group aside {
-        padding: 1em;
-        padding-left: 1em;
-        padding-right: 1em;
-        margin: 1em;
-    }
-
-    code {
-        font-size: 14;
-    }
-    table {
-        font-size: 10;
-    }
+.img-small {
+    max-width: 300px;
+    max-height: 300px;
 }
 
-@media (min-width: 769px) and (max-width: 1440px){
-    h1 {
-        font-size: 3em;
-        padding: 1.5em;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-        -webkit-text-stroke: 2px black;
-    }
-
-    h2 {
-        font-size: 2em;
-        padding: 1em;
-        margin-top: 2em;
-        box-shadow: 0px 5px 5px #c2b9409f;
-    }
-
-    h3 {
-        font-size: 2em;
-        padding: 1em;
-        margin-top: 2em;
-    }
-
-    h4 {
-        font-size: 2em;
-
-    }
-
-    section {
-        margin: 2em;
-    }
-
-    :not(h1, h2, h3, h4, h5, h6) {
-        font-size: 20px;
-    }
-
-    .theme {
-        padding: 4em;
-        padding-top: 0px;
-    }
-
-    .exercises {
-        padding: 4em;
-        padding-top: 4px;
-        margin: 4px;
-        border-radius: 10px;
-    }
-
-    .aside-group aside {
-        padding: 4px;
-        padding-left: 2em;
-        padding-right: 2em;
-        margin: 2em;
-        border-radius: 30px;
-    }
-
-    code {
-        font-size: 1em;
-    }
+.compared {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-@media (min-width: 1440px) {
-    h1 {
-        font-size: 4em;
-        padding: 2em;
-        padding-top: 1em;
-        padding-bottom: 1em;
-        -webkit-text-stroke: 2px black;
-    }
-
-    h2 {
-        font-size: 3em;
-        padding: 1em;
-        margin-top: 2em;
-        box-shadow: 0px 5px 5px #c2b9409f;
-    }
-
-    h3 {
-        font-size: 2em;
-        padding: 1em;
-        margin-top: 2em;
-    }
-
-    h4 {
-        font-size: 2em;
-
-    }
-
-    section {
-        margin: 8em;
-    }
-
-    :not(h1, h2, h3, h4, h5, h6) {
-        font-size: 20px;
-    }
-
-    .theme {
-        padding: 8em;
-        padding-top: 0px;
-    }
-
-    .exercises {
-        padding: 4em;
-        padding-top: 4px;
-        margin: 4px;
-        border-radius: 10px;
-    }
-
-    .aside-group aside {
-        padding: 4px;
-        padding-left: 2em;
-        padding-right: 2em;
-        margin: 2em;
-        border-radius: 30px;
-    }
-
-    code {
-        font-size: 1em;
-    }
+.compared img {
+    flex: 1;
+    height: 200px; /* ajusta la altura según tus necesidades */
+    object-fit: contain; /* o object-fit: cover; ajusta según tus necesidades */
+    max-width: calc(50% - 10px); /* ajusta el espacio entre las imágenes según tus necesidades */
+    margin-right: 20px; /* ajusta el espacio entre las imágenes según tus necesidades */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-span.reserved{
+span.reserved {
     color: var(--palette-blue);
 }
 
-span.identifier{
+span.identifier {
     color: var(--palette-white);
 }
-span.literal{
+
+span.literal {
     color: var(--palette-white);
 }
