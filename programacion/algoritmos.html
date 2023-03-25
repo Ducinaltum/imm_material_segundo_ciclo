@@ -1121,16 +1121,16 @@ función &lt;tipo de valor devuelto&gt;* &lt;Nombre&gt; ()
                 una función que se llame AveMaria que rece esa oración:
             </p>
             <pre><code>
-función AveMaria()
+<span class="reserved">función</span> <span class="function-declaration">AveMaria</span>()
 {
-    imprimir (“Dios te salve Maria, llena eres de gracia,”)
-    imprimir (“el señor es contigo”)
-    imprimir (“Bendita tu eres entre todas las mujeres”)
-    imprimir (“y bendito es el fruto de tu vientre, Jesús”)
-    imprimir (“Santa Maria, madre de Dios”)
-    imprimir (“Ruega por nosotros Pecadores”)
-    imprimir (“ahora y en la hora de nuestra muerte”)
-    imprimir(“Amén”)
+    <span class="function">imprimir</span> (<span class="string-literal">“Dios te salve Maria, llena eres de gracia,”</span>)
+    <span class="function">imprimir</span> (<span class="string-literal">“el señor es contigo”</span>)
+    <span class="function">imprimir</span> (<span class="string-literal">“Bendita tu eres entre todas las mujeres”</span>)
+    <span class="function">imprimir</span> (<span class="string-literal">“y bendito es el fruto de tu vientre, Jesús”</span>)
+    <span class="function">imprimir</span> (<span class="string-literal">“Santa Maria, madre de Dios”</span>)
+    <span class="function">imprimir</span> (<span class="string-literal">“Ruega por nosotros Pecadores”</span>)
+    <span class="function">imprimir</span> (<span class="string-literal">“ahora y en la hora de nuestra muerte”</span>)
+    <span class="function">imprimir</span> (<span class="string-literal">“Amén”</span>)
 }
         </code></pre>
 
@@ -1138,16 +1138,16 @@ función AveMaria()
             La podríamos usar (invocar) en el siguiente contexto:
         </p>
         <pre><code>
-Repetir (5)
+<span class="reserved">Repetir</span> (<span class="literal">5</span>)
 {
-    //Podríamos suponer que PadreNuestro es una función similar a AveMaria, solo que ora el padrenuestro
-    //Lo mismo aplica para Gloria
-    PadreNuestro()
-    Repetir (10)
+    <span class="comment">//Podríamos suponer que PadreNuestro es una función similar a AveMaria, solo que ora el padrenuestro</span>
+    <span class="comment">//Lo mismo aplica para Gloria</span>
+    <span class="function">PadreNuestro</span>()
+    <span class="reserved">Repetir</span> (<span class="literal">10</span>)
     {
-        AveMaria()
+        <span class="function">AveMaria</span>()
     }
-    Gloria ()
+    <span class="function">Gloria</span> ()
 }
         </code></pre>
 

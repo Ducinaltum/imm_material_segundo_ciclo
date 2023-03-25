@@ -29,6 +29,15 @@
     --palette-grey: #3C3C3C;
     --palette-white: #D4D4D4;
     --palette-black: #1E1E1E;
+
+    --code-reserved:var(--palette-blue);
+    --code-identifier:var(--palette-purple);
+    --code-literal:var(--palette-white);
+    --code-string-literal:var(--palette-pink);
+    --code-function: var(--palette-yellow);
+    --code-function-declaration: var(--palette-yellow);
+    --code-comment: var(--palette-green);
+
     --section-border-radius: 20px;
 }
 
@@ -234,16 +243,32 @@ table {
 }
 
 span.reserved {
-    color: var(--palette-blue);
+    color: var(--code-reserved);
 }
 
 span.identifier {
-    color: var(--palette-white);
+    color: var(--code-identifier);
 }
 
 span.literal {
-    color: var(--palette-white);
+    color: var(--code-literal);
 }
+
+span.string-literal{
+    color: var(--code-string-literal);
+}
+
+span.function{
+    color: var(--code-function);
+}
+span.function-declaration{
+    color: var(--code-function-declaration);
+}
+span.comment{
+    color: var(--code-comment);
+}
+
+
 
 .divided-items-list li{
     border-style:solid;   
