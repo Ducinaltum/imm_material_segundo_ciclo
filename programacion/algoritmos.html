@@ -579,14 +579,14 @@ variable &lt;tipo&gt; entradaDeUsuario = Leer()
                 si la edad es menor a 18, se puede utilizar una estructura condicional de la siguiente manera:
             </p>
             <pre> <code>
-        si (edad >= 18) 
-        {
-            imprimir ("Eres mayor de edad")
-        }
-        Si no
-        {
-            imprimir ("Eres menor de edad")
-        }
+<span class="reserved">si</span> (<span class="identifier">edad</span> >= <span class="literal">18</span>) 
+{
+    <span class="function">imprimir</span> (<span class="string-literal">"Eres mayor de edad"</span>)
+}
+<span class="reserved">Si no</span>
+{
+    <span class="function">imprimir</span> (<span class="string-literal">"Eres menor de edad"</span>)
+}
         </code></pre>
 
             <h3> Estructuras selectivas simples </h3>
@@ -604,10 +604,10 @@ variable &lt;tipo&gt; entradaDeUsuario = Leer()
                 o igual a 80, no se imprimirá nada y se continuará con el resto del programa.
             </p>
             <pre> <code>
-        Si (humedad > 80) 
-        {
-            imprimir ("Llevar paraguas")
-        }
+<span class="reserved">Si</span> (<span class="identifier">humedad</span> > <span class="literal">80</span>) 
+{
+    <span class="function">imprimir</span> (<span class="string-literal">"Llevar paraguas"</span>)
+}
         </code></pre>
             <p>
                 Es importante recordar que en una estructura condicional simple solo se evalúa una condición y se
@@ -635,14 +635,14 @@ variable &lt;tipo&gt; entradaDeUsuario = Leer()
             </p>
 
             <pre> <code>
-        Si (está lloviendo)
-        {
-            imprimir (“Juego videojuegos”)
-        }
-        Sino
-        {
-            imprimir (“Puedo salir a jugar”)
-        }
+<span class="reserved">Si</span> (<span class="identifier">estáLloviendo</span>)
+{
+    <span class="function">imprimir</span> (“Juego videojuegos”)
+}
+<span class="reserved">Sino</span>
+{
+    <span class="function">imprimir</span> (“Puedo salir a jugar”)
+}
         </code></pre>
 
             <p>
@@ -671,22 +671,22 @@ variable &lt;tipo&gt; entradaDeUsuario = Leer()
             </p>
 
             <pre> <code>
-        si (caminoEstaDespejado)
-        {
-            CaminarHaciaAdelante()
-        }
-        sino si (derechaDespejada)
-        {
-            GirarDerecha()
-        }
-        sino si (izquierdaDespejada)
-        {
-            GirarIzquierda()
-        }
-        sino
-        {
-            Frenar()
-        }
+<span class="reserved">si</span> (<span class="identifier">caminoEstaDespejado</span>)
+{
+    <span class="function">CaminarHaciaAdelante</span>()
+}
+<span class="reserved">sino si</span> (<span class="identifier">derechaDespejada</span>)
+{
+    <span class="function">GirarDerecha</span>()
+}
+<span class="reserved">sino si</span> (<span class="identifier">izquierdaDespejada</span>)
+{
+    <span class="function">GirarIzquierda</span>()
+}
+<span class="reserved">sino</span>
+{
+    <span class="function">Frenar</span>()
+}
         </code></pre>
 
             <p>
@@ -727,24 +727,24 @@ variable &lt;tipo&gt; entradaDeUsuario = Leer()
             </p>
 
             <pre><code>
-entero semestre_1;
-entero semestre_2;
-entero recuperatorio;
-entero promedio = (examen_1 + examen_2) / 2
-si (promedio &lt; 6) 
+<span class="reserved">entero</span> <span class="identifier">semestre_1</span>;
+<span class="reserved">entero</span> <span class="identifier">semestre_2</span>;
+<span class="reserved">entero</span> <span class="identifier">recuperatorio</span>;
+<span class="reserved">entero</span> <span class="identifier">promedio</span> = (<span class="identifier">examen_1</span> + <span class="identifier">examen_2</span>) / <span class="literal">2</span>
+<span class="reserved">si</span> (<span class="identifier">promedio</span> &lt; <span class="literal">6</span>) 
 { 
-    si (recuperatorio>= 6)
+    <span class="reserved">si</span> (<span class="identifier">recuperatorio</span>>= <span class="literal">6</span>)
     {
-        imprimir(“Estudiante aprobado en recuperatorio”)
+        <span class="function">imprimir</span>(<span class="string-literal">“Estudiante aprobado en recuperatorio”</span>)
     }
-    sino
+    <span class="reserved">sino</span>
     {
-        imprimir(“Estudiante desaprobado”)
+        <span class="function">imprimir</span>(<span class="string-literal">“Estudiante desaprobado”</span>)
     }
 }
-si no
+<span class="reserved">si no</span>
 {
-    imprimir(“Estudiante aprobado”)
+    <span class="function">imprimir</span>(<span class="string-literal">“Estudiante aprobado”</span>)
 }
             </code></pre>
 
@@ -752,67 +752,67 @@ si no
 
             <h4> Estructura selectiva simple </h4>
             <pre><code>
-si(&lt;condición&gt;)
+<span class="reserved">si</span>(&lt;condición&gt;)
 {
-    //Bloque de código
+    <span class="comment">//Bloque de código</span>
 }
             </code></pre>
 
             <h4> Estructura selectiva doble</h4>
 
             <pre><code>
-si(&lt;condición&gt;)
+<span class="reserved">si</span>(&lt;condición&gt;)
 {
-    //Bloque de código por el si
+    <span class="comment">//Bloque de código por el si</span>
 }
-si no
+<span class="reserved">si no</span>
 {
-    //Bloque de código por el no
+    <span class="comment">//Bloque de código por el no</span>
 }
             </code></pre>
 
             <h4> Estructura selectiva múltiple</h4>
             <pre><code>
-si (&lt;condición 1&gt;)
+<span class="reserved">si</span> (&lt;condición 1&gt;)
 {
-    //Bloque de código si la condición 1 es cierta
+    <span class="comment">//Bloque de código si la condición 1 es cierta</span>
 }
-si no si (&lt;condición 2&gt;)
+<span class="reserved">si no si</span> (&lt;condición 2&gt;)
 {
-    //Bloque de código si la condición 1 es cierta
+    <span class="comment">//Bloque de código si la condición 1 es cierta</span>
 }
-si no si (&lt;condición n&gt;)
+<span class="reserved">si no si</span> (&lt;condición n&gt;)
 {
-    //Bloque de código si la condición 1 y 2 son falsas y la condición n verdadera
+    <span class="comment">//Bloque de código si la condición 1 y 2 son falsas y la condición n verdadera</span>
 }
-Si no
+<span class="reserved">Si no</span>
 {
-    //Bloque de código si ninguna condición es verdadera
+    <span class="comment">//Bloque de código si ninguna condición es verdadera</span>
 }
             </code></pre>
 
             <h4> Estructura selectiva anidada</h4>
             <pre><code>
-si (<condición 1>)
+<span class="reserved">si</span> (&lt;condición 1&gt;)
 {
-    si (&lt;condición a&gt;)
+    <span class="reserved">si</span> (&lt;condición a&gt;)
     {
-        //Bloque de código si condición 1 y b son verdaderas
+        <span class="comment">//Bloque de código si condición 1 y b son verdaderas</span>
     }
-    si no
+    <span class="reserved">si no</span>
     {
-        //Bloque de código si condición 1 es verdadera pero condición b es falsa
+        <span class="comment">//Bloque de código si condición 1 es verdadera pero condición b es falsa</span>
     }
 }
-si no
+<span class="reserved">si no</span>
 {
-    si (&lt;condición c&gt;)
+    <span class="reserved">si</span> (&lt;condición c&gt;)
     {
-        //Bloque de código si condición 1 es falsa pero condición c es verdadera
+        <span class="comment">//Bloque de código si condición 1 es falsa pero condición c es verdadera</span>
     }
-    si no
+    <span class="reserved">si no</span>
     {
-        //Bloque de código si condición 1 y c son falsas
+        <span class="comment">//Bloque de código si condición 1 y c son falsas</span>
     }
 }
             </code></pre>
@@ -905,9 +905,9 @@ si no
             </p>
 
             <pre> <code>
-repetir (5)
+<span class="reserved">repetir</span> (<span class="literal">5</span>)
 {
-    imprimir("Hola")
+    <span class="function">imprimir</span>(<span class="string-literal">"Hola"</span>)
 }
         </code></pre>
 
@@ -935,12 +935,12 @@ repetir (5)
             </p>
 
             <pre> <code>
-        mientras (colorSemáforo == “rojo”)
-        {
-            Frenar ()
-            EsperarSegundos(1)
-        }
-        Avanzar ()
+<span class="reserved">mientras</span> (<span class="identifier">colorSemáforo</span> == <span class="string-literal">“rojo”</span>)
+{
+    <span class="function">Frenar</span>()
+    <span class="function">EsperarSegundos</span>(<span class="literal">1</span>)
+}
+        <span class="function">Avanzar</span>()
         </code></pre>
 
             <p>
@@ -970,9 +970,9 @@ repetir (5)
             </p>
 
             <pre> <code>
-            para (entero i = 1; 1 &lt;= 5; i=i + 1)
+            <span class="reserved">para</span> (<span class="reserved">entero</span> <span class="identifier">i</span> = <span class="literal">1</span>; <span class="identifier">i</span> &lt;= <span class="literal">5</span>; <span class="identifier">i</span> = <span class="identifier">i</span> + <span class="literal">1</span>)
             { 
-                imprimir(i) 
+                <span class="function">imprimir</span>(<span class="identifier">i</span>) 
             } 
         </code></pre>
 
@@ -988,25 +988,25 @@ repetir (5)
             <h4> Repetir</h4>
 
             <pre><code>
-repetir (<entero hasta>)
+<span class="reserved">repetir</span> (&lt;<span class="reserved">entero</span> <span class="identifier">hasta</span>&gt;)
 {
-    //Bloque de código
+    <span class="comment">//Bloque de código</span>
 }
             </code></pre>
 
             <h4>Mientras</h4>
             <pre><code>
-mientras (<condición>)
+<span class="reserved">mientras</span> (&lt;condición&gt;)
 {
-    //Bloque de código
+    <span class="comment">//Bloque de código</span>
 }
             </code></pre>
 
             <h4>Para</h4>
             <pre><code>
-para(&lt;iniciación&gt;; &lt;condición&gt;; &lt;actualización&gt;)
+<span class="reserved">para</span>(&lt;iniciación&gt;; &lt;condición&gt;; &lt;actualización&gt;)
 {
-    //Bloque de código
+    <span class="comment">//Bloque de código</span>
 }
             </code></pre>
 
@@ -1101,13 +1101,13 @@ para(&lt;iniciación&gt;; &lt;condición&gt;; &lt;actualización&gt;)
             <h2> Declaración e invocación de una funcion </h2>
 
             <pre><code>
-función &lt;tipo de valor devuelto&gt;* &lt;Nombre&gt; ()
+<span class="reserved">función</span> <span class="reserved">&lt;tipo de valor devuelto&gt;</span>* <span class="function-declaration">&lt;Nombre&gt;</span> ()
 {
-    //Bloque de código
-    *devolver &lt;valor&gt;
+    <span class="comment">//Bloque de código</span>
+    *<span class="reserved">devolver</span> <span class="literal">&lt;valor&gt;</span>
 }
 
-&lt;tipo&gt; &lt;resultado&gt; * = &lt;Nombre de función&gt; (&lt;parámetros&gt;*)
+<span class="reserved">&lt;tipo&gt;</span> <span class="identifier">&lt;resultado&gt;</span> * = <span class="function">&lt;Nombre de función&gt;</span> (<span class="identifier">&lt;parámetros&gt;</span>*)
         </code></pre>
             <i>
                 *opcional
@@ -1141,7 +1141,7 @@ función &lt;tipo de valor devuelto&gt;* &lt;Nombre&gt; ()
             La podríamos usar (invocar) en el siguiente contexto:
         </p>
         <pre><code>
-<span class="reserved">Repetir</span> (<span class="literal">5</span>)
+<span class="reserved">repetir</span> (<span class="literal">5</span>)
 {
     <span class="comment">//Podríamos suponer que PadreNuestro es una función similar a AveMaria, solo que ora el padrenuestro</span>
     <span class="comment">//Lo mismo aplica para Gloria</span>
@@ -1166,13 +1166,13 @@ función &lt;tipo de valor devuelto&gt;* &lt;Nombre&gt; ()
                 ningún valor, pero sí te muestra un mensaje con el saludo.
             </p>
             <pre><code>
-función Saludar (texto nombre)
+<span class="reserved">función</span> <span class="function-declaration">Saludar</span> (<span class="reserved">texto</span> <span class="identifier">nombre</span>)
 {
-    texto saludo = “Hola “ + nombre + “, es un gusto verte”
-    imprimir (saludo)
+    <span class="reserved">texto</span> <span class="identifier">saludo</span> = <span class="string-literal">“Hola “</span> + <span class="identifier">nombre</span> + <span class="string-literal">“, es un gusto verte”</span>
+    <span class="function">imprimir</span> (<span class="identifier">saludo</span>)
 }
-Saludar(“Pepe”)
-//Se va a leer “Hola Pepe, es un gusto verte”
+<span class="function">Saludar</span>(“Pepe”)
+<span class="comment">//Se va a leer “Hola Pepe, es un gusto verte”</span>
         </code></pre>
 
 
@@ -1196,14 +1196,14 @@ Saludar(“Pepe”)
             </p>
 
             <pre><code>
-funcion entero TirarDado()
+<span class="reserved">función entero</span> <span class="function-declaration">TirarDado</span>()
 {
-    entero valorDado = NumeroAleatorio() * 6
-    devolver valorDado;
+    <span class="reserved">entero</span> <span class="identifier">valorDado</span> = <span class="function">NumeroAleatorio</span>() * <span class="literal">6</span>
+    <span class="reserved">devolver</span> <span class="identifier">valorDado</span>;
 }
 
-//Cada vez que se llame (invoque) a la función TirarDado nos va a devolver un número entre 1 y 6
-entero moverCasilleros = TirarDado()
+<span class="comment">//Cada vez que se llame (invoque) a la función TirarDado nos va a devolver un número entre 1 y 6</span>
+<span class="reserved">entero</span> <span class="identifier">moverCasilleros</span> = <span class="function">TirarDado</span>()
             </code></pre>
 
             <h2> Funciones con parametros y con retorno</h2>
@@ -1220,23 +1220,23 @@ entero moverCasilleros = TirarDado()
             </p>
 
             <pre><code>
-función Cuadrado (entero numero)
+<span class="reserved">función</span> <span class="function-declaration">Cuadrado</span> (<span class="reserved">entero</span> <span class="identifier">numero</span>)
 {
-    devolver numero * numero;
+    <span class="reserved">devolver</span> <span class="identifier">numero</span> * <span class="identifier">numero</span>;
 }
-entero potencia = Cuadrado (4)
-//potencia vale 16
+<span class="reserved">entero</span> <span class="identifier">potencia</span> = <span class="function">Cuadrado</span> (<span class="literal">4</span>)
+<span class="comment">//potencia vale 16</span>
             </code></pre>
 
             <h3> En pseudocodigo, se define un metodo utilizando la siguiente sintaxis:</h3>
 
             <pre><code>
-funcion tipo_de_retorno NombreFuncion(parametro1, ..., parametroN)
+<span class="reserved">funcion</span> <span class="reserved">tipo_de_retorno</span> <span class="function-declaration">NombreFuncion</span>(<span class="identifier">parametro1</span>, <span class="identifier">...</span>, <span class="identifier">parametroN</span>)
 {
-    // Cuerpo de la función
-    // Puede incluir cualquier tipo de instrucción, incluyendo otras
-    // funciones o estructuras de control.
-    retornar valor_de_retorno
+    <span class="comment">// Cuerpo de la función</span>
+    <span class="comment">// Puede incluir cualquier tipo de instrucción, incluyendo otras</span>
+    <span class="comment">// funciones o estructuras de control.</span>
+    <span class="reserved">retornar</span> <span class="identifier">valor_de_retorno</span>
 }
         </code></pre>
 
