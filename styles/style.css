@@ -30,10 +30,10 @@
     --palette-white: #D4D4D4;
     --palette-black: #1E1E1E;
 
-    --code-reserved:var(--palette-blue);
-    --code-identifier:var(--palette-purple);
-    --code-literal:var(--palette-white);
-    --code-string-literal:var(--palette-pink);
+    --code-reserved: var(--palette-blue);
+    --code-identifier: var(--palette-purple);
+    --code-literal: var(--palette-white);
+    --code-string-literal: var(--palette-pink);
     --code-function: var(--palette-yellow);
     --code-function-declaration: var(--palette-yellow);
     --code-comment: var(--palette-green);
@@ -212,14 +212,14 @@ table {
 
     text-align: center;
 
-    border-radius: 10em;
+    border-radius: 7em;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .theme-button>p {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .img-small {
@@ -236,10 +236,14 @@ table {
 
 .compared img {
     flex: 1;
-    height: 200px; /* ajusta la altura según tus necesidades */
-    object-fit: contain; /* o object-fit: cover; ajusta según tus necesidades */
-    max-width: calc(50% - 10px); /* ajusta el espacio entre las imágenes según tus necesidades */
-    margin-right: 20px; /* ajusta el espacio entre las imágenes según tus necesidades */
+    height: 200px;
+    /* ajusta la altura según tus necesidades */
+    object-fit: contain;
+    /* o object-fit: cover; ajusta según tus necesidades */
+    max-width: calc(50% - 10px);
+    /* ajusta el espacio entre las imágenes según tus necesidades */
+    margin-right: 20px;
+    /* ajusta el espacio entre las imágenes según tus necesidades */
 }
 
 span.reserved {
@@ -254,34 +258,96 @@ span.literal {
     color: var(--code-literal);
 }
 
-span.string-literal{
+span.string-literal {
     color: var(--code-string-literal);
 }
 
-span.function{
+span.function {
     color: var(--code-function);
 }
-span.function-declaration{
+
+span.function-declaration {
     color: var(--code-function-declaration);
 }
-span.comment{
+
+span.comment {
     color: var(--code-comment);
 }
 
+span.class {
+    color: var(--code-literal);
+}
 
 
-.divided-items-list li{
-    border-style:solid;   
+
+.divided-items-list li {
+    border-style: solid;
     border-radius: 10px;
     overflow: auto;
     padding: 1em;
     margin: 1em;
 }
 
-.no-bullet-list{
-    list-style:none;
+.no-bullet-list {
+    list-style: none;
 }
 
 .social-network img {
     height: 5em;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: var(--code-string-literal);
 }
