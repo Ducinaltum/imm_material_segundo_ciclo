@@ -65,12 +65,11 @@ section {
 
 .wrapped-by-text-image {
     float: left;
-    /*margin-top: 1em;*/
     margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 0px;
     max-width: 90%;
-    max-height: fit-content;
+    max-height: 100%;
 }
 
 img {
@@ -278,8 +277,6 @@ span.class {
     color: var(--code-literal);
 }
 
-
-
 .divided-items-list li {
     border-style: solid;
     border-radius: 10px;
@@ -296,6 +293,16 @@ span.class {
     height: 5em;
 }
 
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.iframe-container {
+    clear: both;
+    padding-top: 2em;
+}
+
 .navbar {
     display: flex;
     flex-wrap: nowrap;
@@ -303,38 +310,40 @@ span.class {
     align-items: stretch;
 }
 
+
+
 /* Style The Dropdown Button */
 .dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
 /* Change color of dropdown links on hover */
@@ -344,10 +353,10 @@ span.class {
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: var(--code-string-literal);
+    background-color: var(--code-string-literal);
 }
